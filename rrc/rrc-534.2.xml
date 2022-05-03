@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-534.2</recordId>
@@ -45,13 +45,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">DIVOS&#xB7;IVLIVS DIVI&#xB7;F</legend>
+        <legend scriptCode="Latn">DIVOS·IVLIVS DIVI·F</legend>
         <type>
           <description xml:lang="en">Wreathed head of Julius Caesar and head of Octavian facing each other. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;AGRIPPA&#xB7;COS DESIG</legend>
+        <legend scriptCode="Latn">M·AGRIPPA·COS DESIG</legend>
         <type>
           <description xml:lang="en">Inscription. Border of dots.</description>
         </type>

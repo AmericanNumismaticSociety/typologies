@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-526.2</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">DIVI&#xB7;IVLI</legend>
+        <legend scriptCode="Latn">DIVI·IVLI</legend>
         <type>
           <description xml:lang="en">Laureate head Julius Caesar right; behind, lituus. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">Q&#xB7;VOCONIVS VITVLVS</legend>
+        <legend scriptCode="Latn">Q·VOCONIVS VITVLVS</legend>
         <type>
           <description xml:lang="en">Calf left . Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-461.1</recordId>
@@ -48,13 +48,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/africa">Africa</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">Q&#xB7;METELL SCIPIO&#xB7;IMP</legend>
+        <legend scriptCode="Latn">Q·METELL SCIPIO·IMP</legend>
         <type>
           <description xml:lang="en">Head of Africa right, laureate and wearing elephant's skin; on right, corn-ear; below, plough; on far right, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">EPPIVS LEG&#xB7;F&#xB7;C</legend>
+        <legend scriptCode="Latn">EPPIVS LEG·F·C</legend>
         <type>
           <description xml:lang="en">Hercules standing facing, with right hand on hip and resting left arm on club draped with lion's skin (club rests on rock). Border of dots.</description>
         </type>

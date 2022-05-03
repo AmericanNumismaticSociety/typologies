@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-491.2</recordId>
@@ -45,13 +45,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">C&#xB7;NORBANVS L&#xB7;CESTIVS PR</legend>
+        <legend scriptCode="Latn">C·NORBANVS L·CESTIVS PR</legend>
         <type>
           <description xml:lang="en">Bust of Sibyl (possibly) right, draped . Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">S&#xB7;C</legend>
+        <legend scriptCode="Latn">S·C</legend>
         <type>
           <description xml:lang="en">Cybele on throne in biga of lions left, holding patera in right hand and resting left arm on tympanum . Border of dots.</description>
         </type>

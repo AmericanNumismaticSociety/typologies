@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-1.1</recordId>
@@ -53,7 +53,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56988">Apollo</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">&#x3A1;&#x3A9;???&#x3A9;?</legend>
+        <legend scriptCode="Latn">ΡΩ???Ω?</legend>
         <type>
           <description xml:lang="en">Forepart of man-headed bull walking, right. Flank of bull is decorated by star; above legend.</description>
         </type>

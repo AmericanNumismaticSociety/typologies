@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-399.1a</recordId>
@@ -50,7 +50,7 @@
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">A Q&#xB7;CREPEREI / ROCVS</legend>
+        <legend scriptCode="Latn">A Q·CREPEREI / ROCVS</legend>
         <type>
           <description xml:lang="en">Neptune in biga of sea-horses right, holding reins in left hand and brandishing trident with right hand; above, control mark . Border of dots.</description>
         </type>

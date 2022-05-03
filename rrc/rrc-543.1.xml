@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-543.1</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">ANTONI&#xB7;ARMENIA&#xB7;DEVICTA</legend>
+        <legend scriptCode="Latn">ANTONI·ARMENIA·DEVICTA</legend>
         <type>
           <description xml:lang="en">Head of M. Antonius right; behind, Armenian tiara; around, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">CLEOPATRAE&#xB7;REGINAE&#xB7;REGVM&#xB7;FILIORVM&#xB7;REGVM</legend>
+        <legend scriptCode="Latn">CLEOPATRAE·REGINAE·REGVM·FILIORVM·REGVM</legend>
         <type>
           <description xml:lang="en">Bust of Cleopatra right, draped and wearing diadem; before, prow; around, inscription. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-502.2</recordId>
@@ -48,14 +48,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">L&#xB7;SESTI&#xB7;PRO&#xB7;Q</legend>
+        <legend scriptCode="Latn">L·SESTI·PRO·Q</legend>
         <type>
           <description xml:lang="en">Head of Libertas right, draped and wearing veil; around, inscription. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59100">Libertas</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">Q&#xB7;CAEPIO&#xB7;BRVTVS&#xB7;PRO&#xB7;COS</legend>
+        <legend scriptCode="Latn">Q·CAEPIO·BRVTVS·PRO·COS</legend>
         <type>
           <description xml:lang="en">Tripod; on left, axe; on right, simpulum; around, inscription. Border of dots.</description>
         </type>

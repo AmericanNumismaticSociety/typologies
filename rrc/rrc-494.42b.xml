@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-494.42b</recordId>
@@ -51,7 +51,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57638">Concordia</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">CLOACIN L&#xB7;MVSSIDIVS&#xB7;LONGVS</legend>
+        <legend scriptCode="Latn">CLOACIN L·MVSSIDIVS·LONGVS</legend>
         <type>
           <description xml:lang="en">Shrine of Venus Cloacina, inscribed . Border of dots.</description>
         </type>

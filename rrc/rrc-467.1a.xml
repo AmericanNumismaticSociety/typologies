@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-467.1a</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">COS&#xB7;TERT DICT&#xB7;ITER</legend>
+        <legend scriptCode="Latn">COS·TERT DICT·ITER</legend>
         <type>
           <description xml:lang="en">Head of Ceres right. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57930">Ceres</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">AVGVR PONT&#xB7;MAX D</legend>
+        <legend scriptCode="Latn">AVGVR PONT·MAX D</legend>
         <type>
           <description xml:lang="en">Culullus, aspergillum, jug and lituus . Border of dots.</description>
         </type>

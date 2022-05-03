@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-366.3b</recordId>
@@ -48,7 +48,7 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/hispania">Hispania</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">C&#xB7;ANNIVS&#xB7;T&#xB7;F&#xB7;T&#xB7;N&#xB7;PRO&#xB7;COS&#xB7;EX&#xB7;S&#xB7;C G</legend>
+        <legend scriptCode="Latn">C·ANNIVS·T·F·T·N·PRO·COS·EX·S·C G</legend>
         <type>
           <description xml:lang="en">Female head right, wearing diadem; before, scales; around, inscription; behind, control mark. Border of dots.</description>
         </type>

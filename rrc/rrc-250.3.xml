@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-250.3</recordId>
@@ -50,7 +50,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;ABVRI MF &#xB7;GEM ROMA</legend>
+        <legend scriptCode="Latn">M·ABVRI MF ·GEM ROMA</legend>
         <type>
           <description xml:lang="en">Prow, right; before, denominational mark.</description>
         </type>

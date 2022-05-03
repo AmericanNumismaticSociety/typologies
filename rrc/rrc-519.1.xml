@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-519.1</recordId>
@@ -50,7 +50,7 @@
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">NEPT CN&#xB7;DOMITIVS&#xB7;L&#xB7;F&#xB7;IMP</legend>
+        <legend scriptCode="Latn">NEPT CN·DOMITIVS·L·F·IMP</legend>
         <type>
           <description xml:lang="en">Tetrastyle temple ; around, inscription. Border of dots.</description>
         </type>

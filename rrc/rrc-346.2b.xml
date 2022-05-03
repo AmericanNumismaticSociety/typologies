@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-346.2b</recordId>
@@ -50,7 +50,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56988">Apollo</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;CENSORI</legend>
+        <legend scriptCode="Latn">C·CENSORI</legend>
         <type>
           <description xml:lang="en">Horse galloping right, wearing bridle; above and in exergue, control mark . Border of dots.</description>
         </type>

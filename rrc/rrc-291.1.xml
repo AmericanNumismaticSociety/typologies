@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-291.1</recordId>
@@ -54,7 +54,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">MN&#xB7;AEMILIO&#xB7; L E P</legend>
+        <legend scriptCode="Latn">MN·AEMILIO· L E P</legend>
         <type>
           <description xml:lang="en">Three arches, on which stands equestrian statue - horseman wears cuirass and wreath and holds spear in right hand; around, inscription; between arches, inscription. Border of dots.</description>
         </type>

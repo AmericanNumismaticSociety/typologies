@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-480.2a</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CAESAR&#xB7;DICT&#xB7;QVART</legend>
+        <legend scriptCode="Latn">CAESAR·DICT·QVART</legend>
         <type>
           <description xml:lang="en">Wreathed head of Caesar right; behind, lituus curved to left; around, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;METTIVS</legend>
+        <legend scriptCode="Latn">M·METTIVS</legend>
         <type>
           <description xml:lang="en">Juno Sospita in biga right, holding reins and shield in left hand and spear in right hand. Border of dots.</description>
         </type>

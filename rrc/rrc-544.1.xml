@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-544.1</recordId>
@@ -47,13 +47,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">ANT&#xB7;AVG III&#xB7;VIR&#xB7;R&#xB7;P&#xB7;C</legend>
+        <legend scriptCode="Latn">ANT·AVG III·VIR·R·P·C</legend>
         <type>
           <description xml:lang="en">Ship right, with sceptre tied with fillet on prow . Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">CHORTIVM&#xB7;PRAETORIARVM</legend>
+        <legend scriptCode="Latn">CHORTIVM·PRAETORIARVM</legend>
         <type>
           <description xml:lang="en">Aquila between two standards; around, inscription. Border of dots.</description>
         </type>

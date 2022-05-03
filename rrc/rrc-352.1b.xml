@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-352.1b</recordId>
@@ -52,7 +52,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59828">Neptune</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;IVLI&#xB7;BVRSIO</legend>
+        <legend scriptCode="Latn">L·IVLI·BVRSIO</legend>
         <type>
           <description xml:lang="en">Victory in quadriga right, holding reins in left hand and wreath in right hand. Border of dots.</description>
         </type>

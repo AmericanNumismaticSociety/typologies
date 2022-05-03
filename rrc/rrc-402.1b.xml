@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-402.1b</recordId>
@@ -50,7 +50,7 @@
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">PRO&#xB7;COS</legend>
+        <legend scriptCode="Latn">PRO·COS</legend>
         <type>
           <description xml:lang="en">Pompey in triumphal quadriga right, holding branch in right hand; on near horse, rider; above, flying Victory with wreath. Border of dots.</description>
         </type>

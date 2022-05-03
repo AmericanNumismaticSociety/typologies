@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-477.2</recordId>
@@ -47,7 +47,7 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/salpensa">Salpensa</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">SEX&#xB7;&#xB7;MAGNVS IMP SAL</legend>
+        <legend scriptCode="Latn">SEX··MAGNVS IMP SAL</legend>
         <type>
           <description xml:lang="en">Head of Cn. Pompeius Magnus (Pompey the Younger) left . Border of dots.</description>
         </type>

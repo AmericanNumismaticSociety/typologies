@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-366.1a</recordId>
@@ -48,13 +48,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/italy_north_rrc">Italy (North)</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">C&#xB7;ANNI&#xB7;T&#xB7;F&#xB7;T&#xB7;N&#xB7;PRO&#xB7;COS&#xB7;EX&#xB7;S&#xB7;C</legend>
+        <legend scriptCode="Latn">C·ANNI·T·F·T·N·PRO·COS·EX·S·C</legend>
         <type>
           <description xml:lang="en">Female bust right, draped and wearing diadem; before, scales; behind, winged caduceus; around, inscription; below, control mark. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;FABI&#xB7;L&#xB7;F&#xB7;HISP</legend>
+        <legend scriptCode="Latn">L·FABI·L·F·HISP</legend>
         <type>
           <description xml:lang="en">Victory in quadriga right, holding reins in left hand and palm-branch in right hand; above, Q. Border of dots.</description>
         </type>

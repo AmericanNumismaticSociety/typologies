@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-401.1</recordId>
@@ -51,7 +51,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/80685">Virtus</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">SICIL MN&#xB7;AQVIL MN&#xB7;F&#xB7;MN&#xB7;N</legend>
+        <legend scriptCode="Latn">SICIL MN·AQVIL MN·F·MN·N</legend>
         <type>
           <description xml:lang="en">Warrior, holding shield in left hand and raising up fallen figure with right hand . Border of dots.</description>
         </type>

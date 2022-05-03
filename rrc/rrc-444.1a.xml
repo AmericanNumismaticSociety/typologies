@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-444.1a</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">Q&#xB7;SICINIVS III&#xB7;VIR</legend>
+        <legend scriptCode="Latn">Q·SICINIVS III·VIR</legend>
         <type>
           <description xml:lang="en">Head of Apollo right, hair tied with band; below, star. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56988">Apollo</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">PR&#xB7;S&#xB7;C C&#xB7;COPONIVS</legend>
+        <legend scriptCode="Latn">PR·S·C C·COPONIVS</legend>
         <type>
           <description xml:lang="en">Club upright, on which hangs lion's skin with head in profile; on left, arrow and inscription; on right, bow and inscription. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-506.1</recordId>
@@ -48,13 +48,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">L&#xB7;BRVTVS&#xB7;PRIM&#xB7;COS</legend>
+        <legend scriptCode="Latn">L·BRVTVS·PRIM·COS</legend>
         <type>
           <description xml:lang="en">Head of L. Junius Brutus right, bearded; around, inscription. Oak-wreath as border.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;BRVTVS&#xB7;IMP COSTA&#xB7;LEG</legend>
+        <legend scriptCode="Latn">M·BRVTVS·IMP COSTA·LEG</legend>
         <type>
           <description xml:lang="en">Head of Brutus right, bearded . Oak-wreath as border.</description>
         </type>

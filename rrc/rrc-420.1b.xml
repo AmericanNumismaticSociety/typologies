@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-420.1b</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">P&#xB7;YPSAE&#xB7;S&#xB7;C</legend>
+        <legend scriptCode="Latn">P·YPSAE·S·C</legend>
         <type>
           <description xml:lang="en">Head of Neptune right; behind, trident. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59828">Neptune</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;YPSAE&#xB7;COS / PRIV CEPIT</legend>
+        <legend scriptCode="Latn">C·YPSAE·COS / PRIV CEPIT</legend>
         <type>
           <description xml:lang="en">Jupiter in quadriga left, holding reins in left hand and hurling thunderbolt with right hand . Border of dots.</description>
         </type>

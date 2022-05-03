@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-268.1b</recordId>
@@ -51,7 +51,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">PICTOR QVIRIN N&#xB7;FABI</legend>
+        <legend scriptCode="Latn">PICTOR QVIRIN N·FABI</legend>
         <type>
           <description xml:lang="en">Q. Fabius Pictor seated left on chair, wearing helmet and cuirass and holding apex in right hand and spear in left hand; beside, shield (inscribed). Line border.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-346.4b</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">&#xB7;N&#xB7; POMPILIO [ANCVS MARCI]</legend>
+        <legend scriptCode="Latn">·N· POMPILIO [ANCVS MARCI]</legend>
         <type>
           <description xml:lang="en">Jugate heads of Numa Pompilius (bearded) and Ancus Marcius right; on either side, legend.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">[C&#xB7;CENSO / ROMA]</legend>
+        <legend scriptCode="Latn">[C·CENSO / ROMA]</legend>
         <type>
           <description xml:lang="en">Two ships crossing; behind, spiral column bearing statue of Victory .</description>
         </type>

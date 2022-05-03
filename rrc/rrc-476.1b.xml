@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-476.1b</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CAESAR&#xB7;DIC&#xB7;TER</legend>
+        <legend scriptCode="Latn">CAESAR·DIC·TER</legend>
         <type>
           <description xml:lang="en">Bust of Victory right, draped. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Victory</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;CLOVI PRAEF</legend>
+        <legend scriptCode="Latn">C·CLOVI PRAEF</legend>
         <type>
           <description xml:lang="en">Minerva standing left, holding trophy over shoulder with rightt hand and holding spear and shield (decorated with gorgoneion and streamers) in left hand; before, snake. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-434.2</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">Q&#xB7;POMPEI&#xB7;Q&#xB7;F / RVFVS COS</legend>
+        <legend scriptCode="Latn">Q·POMPEI·Q·F / RVFVS COS</legend>
         <type>
           <description xml:lang="en">Curule chair; on left, arrow; on right, laurel-branch ; below, on tablet, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">SVLLA&#xB7;COS Q&#xB7;POMPEI&#xB7;RVF</legend>
+        <legend scriptCode="Latn">SVLLA·COS Q·POMPEI·RVF</legend>
         <type>
           <description xml:lang="en">Curule chair; on left, lituus; on right, wreath ; below, on tablet, inscription. Border of dots.</description>
         </type>

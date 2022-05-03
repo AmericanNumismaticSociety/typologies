@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-313.2</recordId>
@@ -51,7 +51,7 @@
         <persname xlink:type="simple" xlink:role="deity">Janus</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;MEMMI ROMA</legend>
+        <legend scriptCode="Latn">L·MEMMI ROMA</legend>
         <type>
           <description xml:lang="en">Prow right, with head of Venus decorating prow-stem; before, Cupid placing wreath on prow-stem .</description>
         </type>

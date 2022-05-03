@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-501.1</recordId>
@@ -54,7 +54,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59100">Libertas</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">CAEPIO&#xB7;BRVTVS&#xB7;PRO&#xB7;COS</legend>
+        <legend scriptCode="Latn">CAEPIO·BRVTVS·PRO·COS</legend>
         <type>
           <description xml:lang="en">Plectrum, lyre and laurel-branch tied with fillet; around, inscription. Border of dots.</description>
         </type>

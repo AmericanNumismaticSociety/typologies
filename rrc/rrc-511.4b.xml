@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-511.4b</recordId>
@@ -47,14 +47,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/sicily">Sicily</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">MAG&#xB7;PIVS&#xB7;IMP&#xB7;ITER</legend>
+        <legend scriptCode="Latn">MAG·PIVS·IMP·ITER</legend>
         <type>
           <description xml:lang="en">Pharos of Messana, surmounted by statue of Neptune, helmeted, holding trident in right hand and rudder in left hand and placing left foot on prow; before, ship left, with aquila in prow and sceptre tied with fillet on stern; around, inscription. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59828">Neptune</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">PRAEF&#xB7;CLAS&#xB7;ET&#xB7;OR[AE&#xB7;MARIT&#xB7;EX&#xB7;S&#xB7;C]</legend>
+        <legend scriptCode="Latn">PRAEF·CLAS·ET·OR[AE·MARIT·EX·S·C]</legend>
         <type>
           <description xml:lang="en">Scylla, wielding rudder with both hands; around, inscription. Border of dots.</description>
         </type>

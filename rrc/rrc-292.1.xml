@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-292.1</recordId>
@@ -54,7 +54,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">P&#xB7;NERVA</legend>
+        <legend scriptCode="Latn">P·NERVA</legend>
         <type>
           <description xml:lang="en">Voting scene. One figure on left of pons receives ballot from attendant below, another figure on right of pons places ballot in cista . At top of coin, bar on which stands tablet bearing letter P. Border of dots.</description>
         </type>

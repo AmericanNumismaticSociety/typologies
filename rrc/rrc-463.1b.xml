@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-463.1b</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">RVFVS&#xB7;IIIVIR</legend>
+        <legend scriptCode="Latn">RVFVS·IIIVIR</legend>
         <type>
           <description xml:lang="en">Jugate heads of Dioscuri right, wearing laureate pilei; around, inscription. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57951">Dioscuri</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">MN&#xB7;CORDIVS</legend>
+        <legend scriptCode="Latn">MN·CORDIVS</legend>
         <type>
           <description xml:lang="en">Venus standing left, holding scales in right hand and sceptre in left hand, with Cupid perched on shoulder. Border of dots.</description>
         </type>

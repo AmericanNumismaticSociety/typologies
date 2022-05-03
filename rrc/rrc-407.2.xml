@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-407.2</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">III&#xB7;VIR</legend>
+        <legend scriptCode="Latn">III·VIR</legend>
         <type>
           <description xml:lang="en">Bust of Diana right, draped, with bow and quiver over shoulder. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57039">Diana</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">GETA C&#xB7;HOSIDI&#xB7;C&#xB7;F</legend>
+        <legend scriptCode="Latn">GETA C·HOSIDI·C·F</legend>
         <type>
           <description xml:lang="en">Boar right, wounded by spear and attacked by hound. Border of dots.</description>
         </type>

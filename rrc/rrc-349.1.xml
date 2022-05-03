@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-349.1</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">EX&#xB7;S&#xB7;C A three dots to left</legend>
+        <legend scriptCode="Latn">EX·S·C A three dots to left</legend>
         <type>
           <description xml:lang="en">Laureate head of Saturn left; behind, harpa ; before, control-mark. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58996">Saturn</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;C&#xB7;MEMIES&#xB7;L&#xB7;F / GAL</legend>
+        <legend scriptCode="Latn">L·C·MEMIES·L·F / GAL</legend>
         <type>
           <description xml:lang="en">Venus in biga right, holding sceptre and reins in left hand and reins in right hand; above, flying Cupid with wreath. Border of dots.</description>
         </type>

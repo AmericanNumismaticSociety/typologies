@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-320.1</recordId>
@@ -51,7 +51,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59284">Mars</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">B L&#xB7;IVLI&#xB7;L&#xB7;F</legend>
+        <legend scriptCode="Latn">B L·IVLI·L·F</legend>
         <type>
           <description xml:lang="en">Venus in biga of Cupids left, holding sceptre in right hand and reins in left hand; above, control-mark; below, lyre. Border of dots.</description>
         </type>

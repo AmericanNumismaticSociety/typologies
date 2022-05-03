@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-396.1b</recordId>
@@ -44,7 +44,7 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">MONETA S&#xB7;C</legend>
+        <legend scriptCode="Latn">MONETA S·C</legend>
         <type>
           <description xml:lang="en">Bust of Juno Moneta right, draped and wearing diadem; below chin, inscription. Border of dots.</description>
         </type>
@@ -52,7 +52,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/75120">Moneta</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;PLAETORI L&#xB7;F&#xB7;Q&#xB7;S&#xB7;C</legend>
+        <legend scriptCode="Latn">L·PLAETORI L·F·Q·S·C</legend>
         <type>
           <description xml:lang="en">Victorious boxer running right, holding caestus in left hand and palm-branch over shoulder. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-480.15</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CAESAR DICT&#xB7;IN&#xB7;PERPETVO</legend>
+        <legend scriptCode="Latn">CAESAR DICT·IN·PERPETVO</legend>
         <type>
           <description xml:lang="en">Veiled and wreathed head of Caesar right. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;MARIDIANVS</legend>
+        <legend scriptCode="Latn">C·MARIDIANVS</legend>
         <type>
           <description xml:lang="en">Venus standing left, holding Victory in right hand and resting left elbow on shield which in turn rests on globe. Border of dots.</description>
         </type>

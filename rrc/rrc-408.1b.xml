@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-408.1b</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">Greek &#x3A6;</legend>
+        <legend scriptCode="Latn">Greek Φ</legend>
         <type>
           <description xml:lang="en">Laureate head of Apollo right; behind, control mark.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56988">Apollo</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;PISO&#xB7;L&#xB7;F&#xB7;FRVG</legend>
+        <legend scriptCode="Latn">C·PISO·L·F·FRVG</legend>
         <type>
           <description xml:lang="en">Horseman right, with Phrygian cap; above, control mark .</description>
         </type>

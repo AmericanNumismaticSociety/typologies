@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-470.1c</recordId>
@@ -48,15 +48,15 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/hispania">Hispania</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CN&#xB7;MAGN IMP</legend>
+        <legend scriptCode="Latn">CN·MAGN IMP</legend>
         <type>
           <description xml:lang="en">Head of Pompey the Great right; around, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;MINAT / SABIN PR&#xB7;Q</legend>
+        <legend scriptCode="Latn">M·MINAT / SABIN PR·Q</legend>
         <type>
-          <description xml:lang="en">C&#xF3;rdoba standing right among a pile of arms, wearing turreted crown, holding sceptre in left hand and with right hand welcoming Pompeian soldier who steps from stern of ship to right. Border of dots.</description>
+          <description xml:lang="en">Córdoba standing right among a pile of arms, wearing turreted crown, holding sceptre in left hand and with right hand welcoming Pompeian soldier who steps from stern of ship to right. Border of dots.</description>
         </type>
       </reverse>
     </typeDesc>

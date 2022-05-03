@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-351.1</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">AED&#xB7;PL</legend>
+        <legend scriptCode="Latn">AED·PL</legend>
         <type>
           <description xml:lang="en">Bust of Ceres right, draped. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57930">Ceres</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">P&#xB7;A M&#xB7;FAN&#xB7;L&#xB7;CRI</legend>
+        <legend scriptCode="Latn">P·A M·FAN·L·CRI</legend>
         <type>
           <description xml:lang="en">Two male figures seated on bench (subsellium) side by side; on right, corn-ear. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-505.5</recordId>
@@ -49,14 +49,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">M&#xB7;SERVILIVS LEG</legend>
+        <legend scriptCode="Latn">M·SERVILIVS LEG</legend>
         <type>
           <description xml:lang="en">Laureate head of Libertas right. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59100">Libertas</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">Q&#xB7;CAEPIO BRVTVS&#xB7;IMP</legend>
+        <legend scriptCode="Latn">Q·CAEPIO BRVTVS·IMP</legend>
         <type>
           <description xml:lang="en">Trophy with two spears and figure-of-eight shield. Border of dots.</description>
         </type>

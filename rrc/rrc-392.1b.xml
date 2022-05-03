@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-392.1b</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">MENSOR S&#xB7;C XXIII</legend>
+        <legend scriptCode="Latn">MENSOR S·C XXIII</legend>
         <type>
           <description xml:lang="en">Bust of Libertas right, draped and wearing diadem; behind, pileus; below chin, inscription; behind, control mark. Bead and reel border.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59100">Libertas</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;FARSVLEI</legend>
+        <legend scriptCode="Latn">L·FARSVLEI</legend>
         <type>
           <description xml:lang="en">Warrior holding spear and reining in biga, right, with left hand; with right hand he helps togate figure into biga; below, scorpion. Border of dots.</description>
         </type>

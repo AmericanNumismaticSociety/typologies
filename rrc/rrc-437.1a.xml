@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-437.1a</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">C&#xB7;COEL&#xB7;CALDVS COS L&#xB7;D</legend>
+        <legend scriptCode="Latn">C·COEL·CALDVS COS L·D</legend>
         <type>
-          <description xml:lang="en">Head of C. Coelius Caldus right ; behind, tablet inscribed L&#xB7;D. Border of dots.</description>
+          <description xml:lang="en">Head of C. Coelius Caldus right ; behind, tablet inscribed L·D. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">CALDVS&#xB7;IIIVIR</legend>
+        <legend scriptCode="Latn">CALDVS·IIIVIR</legend>
         <type>
           <description xml:lang="en">Head of Sol right; behind, oval shield decorated with thunderbolt; before, Macedonian shield. Border of dots.</description>
         </type>

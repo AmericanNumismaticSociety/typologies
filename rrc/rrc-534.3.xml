@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-534.3</recordId>
@@ -45,13 +45,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">IMP&#xB7;CAESAR&#xB7;DIVI&#xB7;IVLI&#xB7;F</legend>
+        <legend scriptCode="Latn">IMP·CAESAR·DIVI·IVLI·F</legend>
         <type>
           <description xml:lang="en">Head of Octavian right, bearded; around, inscription. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;AGRIPPA&#xB7;COS DESIG</legend>
+        <legend scriptCode="Latn">M·AGRIPPA·COS DESIG</legend>
         <type>
           <description xml:lang="en">Inscription. Border of dots.</description>
         </type>

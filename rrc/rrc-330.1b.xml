@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-330.1b</recordId>
@@ -45,14 +45,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">PISO&#xB7;CAEPIO&#xB7;Q</legend>
+        <legend scriptCode="Latn">PISO·CAEPIO·Q</legend>
         <type>
           <description xml:lang="en">Laureate head of Saturn right; behind, harpa; around, inscription; below, control-mark. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58996">Saturn</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">AD&#xB7;FRV&#xB7;EMV EX&#xB7;S&#xB7;C</legend>
+        <legend scriptCode="Latn">AD·FRV·EMV EX·S·C</legend>
         <type>
           <description xml:lang="en">Two quaestors seated on bench (subsellium) side by side; to left and right, corn-ear. Border of dots.</description>
         </type>

@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-481.1</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CAES&#xB7;DIC QVAR</legend>
+        <legend scriptCode="Latn">CAES·DIC QVAR</legend>
         <type>
           <description xml:lang="en">Bust of Venus right, wearing diadem. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56979">Venus</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">COS&#xB7;QVINC</legend>
+        <legend scriptCode="Latn">COS·QVINC</legend>
         <type>
           <description xml:lang="en">Inscription within laurel-wreath. Border of dots.</description>
         </type>

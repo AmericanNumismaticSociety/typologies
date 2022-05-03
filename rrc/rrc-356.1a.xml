@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-356.1a</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">AED&#xB7;CVR</legend>
+        <legend scriptCode="Latn">AED·CVR</legend>
         <type>
           <description xml:lang="en">Head of Cybele right, wearing turreted crown and deformed foot upwards. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57657">Cybele</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">P&#xB7;FOVRIVS CRASSIPES</legend>
+        <legend scriptCode="Latn">P·FOVRIVS CRASSIPES</legend>
         <type>
           <description xml:lang="en">Curule chair, inscribed, Border of dots.</description>
         </type>

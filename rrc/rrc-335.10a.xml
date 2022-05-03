@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-335.10a</recordId>
@@ -55,7 +55,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56988">Apollo</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">A&#xB7;ALBINV[S&#xB7;S&#xB7;F]</legend>
+        <legend scriptCode="Latn">A·ALBINV[S·S·F]</legend>
         <type>
           <description xml:lang="en">Dioscuri watering horses at the Lacus Juturnae; in field, crescent. Border of dots.</description>
         </type>

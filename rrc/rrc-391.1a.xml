@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-391.1a</recordId>
@@ -52,7 +52,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/56979">Venus</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;EGNATIVS&#xB7;CN&#xB7;F / CN&#xB7;N</legend>
+        <legend scriptCode="Latn">C·EGNATIVS·CN·F / CN·N</legend>
         <type>
           <description xml:lang="en">Libertas in biga left, crowned by flying Victory; behind, pileus. Border of dots.</description>
         </type>

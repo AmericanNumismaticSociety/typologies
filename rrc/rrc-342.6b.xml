@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-342.6b</recordId>
@@ -52,7 +52,7 @@
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57060">Minerva</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;VIBIVS&#xB7;C&#xB7;F</legend>
+        <legend scriptCode="Latn">C·VIBIVS·C·F</legend>
         <type>
           <description xml:lang="en">Minerva in quadriga right, holding spear and reins in left hand and trophy in right hand. Border of
                         dots.</description>

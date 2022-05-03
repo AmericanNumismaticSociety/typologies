@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-285.4</recordId>
@@ -48,14 +48,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CN&#xB7;DOMI</legend>
+        <legend scriptCode="Latn">CN·DOMI</legend>
         <type>
           <description xml:lang="en">Helmeted head of Minerva, right; behind, denominational mark; before, inscription upwards.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57060">Minerva</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">M&#xB7;SILA Q&#xB7;CVRTI</legend>
+        <legend scriptCode="Latn">M·SILA Q·CVRTI</legend>
         <type>
           <description xml:lang="en">Aegis; around, inscription.</description>
         </type>

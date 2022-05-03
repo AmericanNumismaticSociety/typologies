@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-480.19</recordId>
@@ -44,13 +44,13 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">CAESAR PARENS&#xB7;PATRIAE</legend>
+        <legend scriptCode="Latn">CAESAR PARENS·PATRIAE</legend>
         <type>
           <description xml:lang="en">Veiled and wreathed head of Caesar right; before, lituus; behind, apex. Border of dots.</description>
         </type>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">C&#xB7;COSSVTIVS MARIDIANVS A A A F&#xB7;F</legend>
+        <legend scriptCode="Latn">C·COSSVTIVS MARIDIANVS A A A F·F</legend>
         <type>
           <description xml:lang="en">Inscription arranged in form of cross; in angles, inscription. Border of dots.</description>
         </type>

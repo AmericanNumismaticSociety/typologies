@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-406.1</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">S&#xB7;C</legend>
+        <legend scriptCode="Latn">S·C</legend>
         <type>
           <description xml:lang="en">Head of Vesta right, wearing veil. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60911">Vesta</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">AED CVR P&#xB7;GALB</legend>
+        <legend scriptCode="Latn">AED CVR P·GALB</legend>
         <type>
           <description xml:lang="en">Knife, culullus and axe. Border of dots.</description>
         </type>

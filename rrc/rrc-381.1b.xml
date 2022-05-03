@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-381.1b</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">A&#xB7;MAN [LI&#xB7;A&#xB7;F&#xB7;Q]</legend>
+        <legend scriptCode="Latn">A·MAN [LI·A·F·Q]</legend>
         <type>
           <description xml:lang="en">Helmeted bust of Roma right, draped. Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">L&#xB7;SVLL&#xB7;FE [LI&#xB7;DIC]</legend>
+        <legend scriptCode="Latn">L·SVLL·FE [LI·DIC]</legend>
         <type>
           <description xml:lang="en">Equestrian statue (of Sulla) left; horseman wears laurel-wreath and sagum, raises right hand and holds reins in left hand . Border of dots.</description>
         </type>

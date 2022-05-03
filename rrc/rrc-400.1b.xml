@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-400.1b</recordId>
@@ -44,14 +44,14 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">I NASO S&#xB7;C</legend>
+        <legend scriptCode="Latn">I NASO S·C</legend>
         <type>
           <description xml:lang="en">Helmeted head of Mars right (helmet has plume on each side); behind, control mark . Border of dots.</description>
         </type>
         <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59284">Mars</persname>
       </obverse>
       <reverse>
-        <legend scriptCode="Latn">I L&#xB7;AXSIVS&#xB7;L&#xB7;F</legend>
+        <legend scriptCode="Latn">I L·AXSIVS·L·F</legend>
         <type>
           <description xml:lang="en">Diana in biga of stags right, holding reins in left hand and spear in right hand; behind, two dogs; below, dog; behind, control mark. Border of dots.</description>
         </type>

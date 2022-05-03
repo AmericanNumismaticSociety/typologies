@@ -1,4 +1,4 @@
-<?xml version="1.0"?>
+<?xml version="1.0" encoding="UTF-8"?>
 <nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
   <control>
     <recordId>rrc-378.1c</recordId>
@@ -44,7 +44,7 @@
         <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
       </geographic>
       <obverse>
-        <legend scriptCode="Latn">C&#xB7;MARI&#xB7;C&#xB7;F&#xB7;CAPIT VI</legend>
+        <legend scriptCode="Latn">C·MARI·C·F·CAPIT VI</legend>
         <type>
           <description xml:lang="en">Bust of Ceres right, draped; around, inscription and control mark. Border of dots.</description>
         </type>
