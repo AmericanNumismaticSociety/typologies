@@ -1,1 +1,65 @@
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual"><control><recordId>rrc-111.1</recordId><publicationStatus>approved</publicationStatus><maintenanceAgency><agencyName>American Numismatic Society</agencyName></maintenanceAgency><maintenanceStatus>derived</maintenanceStatus><maintenanceHistory><maintenanceEvent><eventType>derived</eventType><eventDateTime standardDateTime="2015-01-09T08:58:30-05:00">Fri, 09 Jan 2015 08:58:30 -0500</eventDateTime><agentType>machine</agentType><agent>PHP</agent><eventDescription>Generated from OCRE CSV.</eventDescription></maintenanceEvent></maintenanceHistory><rightsStmt><copyrightHolder>British Museum</copyrightHolder><license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/></rightsStmt><semanticDeclaration><prefix>dcterms</prefix><namespace>http://purl.org/dc/terms/</namespace></semanticDeclaration><semanticDeclaration><prefix>skos</prefix><namespace>http://www.w3.org/2004/02/skos/core#</namespace></semanticDeclaration></control><descMeta><title xml:lang="en">RRC 111/1</title><typeDesc><dateRange><fromDate standardDate="-0211">211 B.C.</fromDate><toDate standardDate="-0208">208 B.C.</toDate></dateRange><objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination><material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material><authority><persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/al_rrc">Aelius</persname></authority><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname></geographic><obverse><legend scriptCode="Latn">X</legend><type><description xml:lang="en">Helmeted head of Roma, right; behind, denominational mark. Border of dots.</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname></obverse><reverse><legend scriptCode="Latn">ROMA AL</legend><type><description xml:lang="en">Dioscuri galloping, right; below, mark; in linear frame, inscription. Line border.</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57951">Dioscuri</persname></reverse></typeDesc></descMeta></nuds>
+<?xml version="1.0"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>rrc-111.1</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2015-01-09T08:58:30-05:00">Fri, 09 Jan 2015 08:58:30 -0500</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>British Museum</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RRC 111/1</title>
+    <typeDesc>
+      <dateRange>
+        <fromDate standardDate="-0211">211 B.C.</fromDate>
+        <toDate standardDate="-0208">208 B.C.</toDate>
+      </dateRange>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+      <authority>
+        <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/al_rrc">Aelius</persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
+      </geographic>
+      <obverse>
+        <legend scriptCode="Latn">X</legend>
+        <type>
+          <description xml:lang="en">Helmeted head of Roma, right; behind, denominational mark. Border of dots.</description>
+        </type>
+        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
+      </obverse>
+      <reverse>
+        <legend scriptCode="Latn">ROMA AL</legend>
+        <type>
+          <description xml:lang="en">Dioscuri galloping, right; below, mark; in linear frame, inscription. Line border.</description>
+        </type>
+        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/57951">Dioscuri</persname>
+      </reverse>
+    </typeDesc>
+  </descMeta>
+</nuds>

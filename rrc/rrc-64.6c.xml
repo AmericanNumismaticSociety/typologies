@@ -1,1 +1,60 @@
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual"><control><recordId>rrc-64.6c</recordId><publicationStatus>approved</publicationStatus><maintenanceAgency><agencyName>American Numismatic Society</agencyName></maintenanceAgency><maintenanceStatus>derived</maintenanceStatus><maintenanceHistory><maintenanceEvent><eventType>derived</eventType><eventDateTime standardDateTime="2015-01-09T08:59:39-05:00">Fri, 09 Jan 2015 08:59:39 -0500</eventDateTime><agentType>machine</agentType><agent>PHP</agent><eventDescription>Generated from OCRE CSV.</eventDescription></maintenanceEvent></maintenanceHistory><rightsStmt><copyrightHolder>British Museum</copyrightHolder><license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/></rightsStmt><semanticDeclaration><prefix>dcterms</prefix><namespace>http://purl.org/dc/terms/</namespace></semanticDeclaration><semanticDeclaration><prefix>skos</prefix><namespace>http://www.w3.org/2004/02/skos/core#</namespace></semanticDeclaration></control><descMeta><title xml:lang="en">RRC 64/6c</title><typeDesc><date standardDate="-0210">210 B.C.</date><objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType><manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture><denomination xlink:type="simple" xlink:href="http://nomisma.org/id/sextans">Sextans</denomination><material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material><authority><persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/ma_rrc">P. Manlius Vulso</persname></authority><geographic><geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/sardinia">Sardinia</geogname></geographic><obverse><type><description xml:lang="en">Head of Mercury, right.</description></type><persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58637">Mercury</persname></obverse><reverse><legend scriptCode="Latn">ROMAinscription MA</legend><type><description xml:lang="en">Prow, right ; below, denominational mark.</description></type></reverse></typeDesc></descMeta></nuds>
+<?xml version="1.0"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>rrc-64.6c</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2015-01-09T08:59:39-05:00">Fri, 09 Jan 2015 08:59:39 -0500</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>British Museum</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RRC 64/6c</title>
+    <typeDesc>
+      <date standardDate="-0210">210 B.C.</date>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/sextans">Sextans</denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+      <authority>
+        <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/ma_rrc">P. Manlius Vulso</persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/sardinia">Sardinia</geogname>
+      </geographic>
+      <obverse>
+        <type>
+          <description xml:lang="en">Head of Mercury, right.</description>
+        </type>
+        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58637">Mercury</persname>
+      </obverse>
+      <reverse>
+        <legend scriptCode="Latn">ROMAinscription MA</legend>
+        <type>
+          <description xml:lang="en">Prow, right ; below, denominational mark.</description>
+        </type>
+      </reverse>
+    </typeDesc>
+  </descMeta>
+</nuds>
