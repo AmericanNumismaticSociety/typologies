@@ -1,0 +1,68 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.10.theo_ii_e.390</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:53:32-04:00">Fri, 24 Jun 2016 16:53:32 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC X Theodosius II (East) 390</title>
+      <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+         <dateRange>
+            <nuds:fromDate standardDate="0438">AD 438</nuds:fromDate>
+            <nuds:toDate standardDate="0450">AD 450</nuds:toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/siliqua">Siliqua</nuds:denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+         <authority>
+            <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/theodosius_ii">Theodosius II</nuds:persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/constantinople">Constantinople</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/thrace">Thrace</geogname>
+         </geographic>
+         <nuds:obverse>
+            <legend scriptCode="Latn">AEL EVDO-CIA AVG</legend>
+            <nuds:type>
+               <description xml:lang="en">Bust of Eudocia, pearl-diademed, draped, right, wearing necklace and earrings, crowned by Hand of God</description>
+            </nuds:type>
+            <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/aelia_eudocia">Aelia Eudocia</nuds:persname>
+         </nuds:obverse>
+         <reverse>
+            <nuds:type>
+               <description xml:lang="en">Cross within a wreath; tie 11</description>
+            </nuds:type>
+            <symbol localType="mintMark">-/-//CONS✳</symbol>
+         </reverse>
+      </nuds:typeDesc>
+   </descMeta>
+</nuds>

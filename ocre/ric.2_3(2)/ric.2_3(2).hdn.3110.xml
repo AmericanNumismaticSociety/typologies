@@ -1,0 +1,69 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>ric.2_3(2).hdn.3110</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-01-20T14:44:21-06:00">Thu, 20 Jan 2022 14:44:21 -0600</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC II, Part 3 (second edition) Hadrian 3110</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <dateRange>
+                <fromDate standardDate="0128">AD 128</fromDate>
+                <toDate standardDate="0130">AD 130</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/eastern_mint_ric">Eastern Mint</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn" xml:lang="la">HADRIANVS AVGVSTVS P P</legend>
+                <type>
+                    <description xml:lang="en">Bust of Hadrian, laureate, draped and cuirassed, right, viewed from rear or side</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn" xml:lang="la">P M TRI P COS III</legend>
+                <type>
+                    <description xml:lang="en">Mars advancing right, holding spear and trophy</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/mars">Mars</persname>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

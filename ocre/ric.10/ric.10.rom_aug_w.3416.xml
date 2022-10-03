@@ -1,0 +1,70 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.10.rom_aug_w.3416</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:57:10-04:00">Fri, 24 Jun 2016 16:57:10 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC X Romulus Augustulus 3416</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0475">AD 475</fromDate>
+            <toDate standardDate="0476">AD 476</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/solidus">Solidus</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/romulus_augustulus">Romulus Augustulus</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/mediolanum">Mediolanum</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">D N ROMVLVS A-GVSTVS P F ꜸG</legend>
+            <type>
+               <description xml:lang="en">Bust of Romulus Augustulus, helmeted, pearl-diademed, cuirassed, facing front, holding spear in right hand behind head and shield decorated with horseman on left arm</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/romulus_augustulus">Romulus Augustulus</persname>
+         </obverse>
+         <reverse>
+            <legend scriptCode="Latn">VICTORI-A AVGGG:</legend>
+            <type>
+               <description xml:lang="en">Victory, winged, draped, standing left, supporting long jeweled cross; star in right field obliterated by M of mint-mark; horizontal bar six-pointed star in right field</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Victory</persname>
+            <symbol localType="mintMark">-/-//COMOB</symbol>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

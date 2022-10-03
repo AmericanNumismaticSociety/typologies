@@ -1,0 +1,68 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.9.rom.62A</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2016-10-24T08:47:52-04:00">Mon, 24 Oct 2016 08:47:52 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC IX Rome 62A</title>
+        <typeDesc>
+            <dateRange>
+                <fromDate standardDate="0388">AD 388</fromDate>
+                <toDate standardDate="0392">AD 392</toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/siliqua">Siliqua</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/valentinian_ii">Valentinian II</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">D N VALENTIN-IANVS P F AVG</legend>
+                <type>
+                    <description xml:lang="en">Bust of Valentinian II, pearl-diademed, draped and cuirassed, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/valentinian_ii">Valentinian II</persname>
+            </obverse>
+            <reverse>
+                <type>
+                    <description xml:lang="en">VOT/XX/MV●LT/XX within wreath</description>
+                </type>
+                <symbol localType="mintMark">-/-//RB</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

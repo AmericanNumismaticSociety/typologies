@@ -1,0 +1,78 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.2.hdn.579A</recordId>
+      <publicationStatus>deprecatedType</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <otherRecordId semantic="dcterms:isReplacedBy">ric.2_3(2).hdn.447</otherRecordId>
+      <otherRecordId semantic="skos:exactMatch">http://numismatics.org/ocre/id/ric.2_3(2).hdn.447</otherRecordId>
+      <maintenanceStatus>cancelledReplaced</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2017-07-17T15:38:08-04:00">Mon, 17 Jul 2017 15:38:08 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2020-06-02T17:04:30.36-04:00">2 June 2020 17:04:30</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Deprecated Hadrian record and replaced with ID from new volume.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC II Hadrian 579A</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0119">AD 119</fromDate>
+            <toDate standardDate="0122">AD 122</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/as">As</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">IMP CAESAR TRAIANVS HADRIANVS AVG</legend>
+            <type>
+               <description xml:lang="en">Bust of Hadrian, laureate, draped on left shoulder, right</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+         </obverse>
+         <reverse>
+            <legend scriptCode="Latn">PONT MAX TR POT COS III S C PIE AVG</legend>
+            <type>
+               <description xml:lang="en">Pietas, veiled, draped, standing front, head left, raising right hand above altar on left and holding left hand on breast</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/59792">Pietas</persname>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

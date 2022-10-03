@@ -1,0 +1,87 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.3.ant.457a</recordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.3.ant.457A_quinarius_aureus</otherRecordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.3.ant.457A_aureus</otherRecordId>
+        <maintenanceStatus>cancelledSplit</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>new</eventType>
+                <eventDateTime standardDateTime="2012-09-12T12:46:02-04:00Z">2012-09-12T12:46:02-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Ethan Gruber</agent>
+                <eventDescription>Generated from OCRE spreadsheet</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>revised</eventType>
+                <eventDateTime standardDateTime="2013-09-11T16:26:19.584-04:00Z">2013-09-11T16:26:19.584-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Migrated to new NUDS schema version; nudsHeader to control.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>cancelledSplit</eventType>
+                <eventDateTime standardDateTime="2013-10-09T11:14:26-04:00">Wed, 09 Oct 2013 11:14:26 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>URI cancelled and replaced following OCRE renumbering.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:04:45.263-05:00">4 November 2014 11:04:45:26</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <publicationStmt>
+            <publisher>American Numismatic Society</publisher>
+        </publicationStmt>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title>RIC III Antoninus Pius 457a</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <dateRange>
+                <fromDate standardDate="0152">AD 152</fromDate>
+                <toDate standardDate="0153">AD 153</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+            <obverse>
+                <legend>AVRELIVS CAESAR AVG PII FIL</legend>
+                <type>
+                    <description xml:lang="en">Head of Marcus Aurelius, bare, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait">Marcus Aurelius</persname>
+            </obverse>
+            <reverse>
+                <legend>TR POT VII COS II</legend>
+                <type>
+                    <description xml:lang="en">Roma, helmeted, in military dress, standing left, holding Victory on extended right hand and parazonium in left</description>
+                </type>
+                <persname xlink:role="deity" xlink:type="simple" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
+                <persname xlink:role="deity" xlink:type="simple" xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Victory</persname>
+            </reverse>
+            <geographic>
+                <geogname xlink:role="mint" xlink:type="simple" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:role="region">Italy</geogname>
+            </geographic>
+            <authority>
+                <persname xlink:role="authority" xlink:type="simple" xlink:href="http://nomisma.org/id/antoninus_pius">Antoninus Pius</persname>
+            </authority>
+        </typeDesc>
+    </descMeta>
+</nuds>

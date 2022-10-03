@@ -1,0 +1,68 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.1(2).aug.156</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2013-10-15T09:12:03-04:00">Tue, 15 Oct 2013 09:12:03 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:04:52.443-05:00">4 November 2014 11:04:52:44</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC I (second edition) Augustus 156</title>
+        <typeDesc>
+            <dateRange>
+                <fromDate standardDate="-0020">20 BC</fromDate>
+                <toDate standardDate="-0010">10 BC</toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/as">As</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/nemausus">Nemausus</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/gallia">Gallia</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">IMP DIVI F</legend>
+                <type>
+                    <description xml:lang="en">Heads of Agrippa (left) and Augustus (right) back to back, Agrippa wearing combined rostral crown and laurel wreath and Augustus is bare-headed</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/augustus">Augustus</persname>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/agrippa">Agrippa</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">COL NIM</legend>
+                <type>
+                    <description xml:lang="en">Crocodile chained to palm-shoot with tip right; above on left a wreath with long ties</description>
+                </type>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

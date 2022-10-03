@@ -1,0 +1,69 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>ric.3.m_aur.518</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2019-05-21T09:48:58-04:00">Tue, 21 May 2019 09:48:58 -0400</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>American Numismatic Society</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>nmo</prefix>
+      <namespace>http://nomisma.org/ontology#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RIC III Marcus Aurelius 518</title>
+    <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+      <dateRange>
+        <nuds:fromDate standardDate="0163">AD 163</nuds:fromDate>
+        <nuds:toDate standardDate="0164">AD 164</nuds:toDate>
+      </dateRange>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</nuds:denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+      <authority>
+        <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/marcus_aurelius">Marcus Aurelius</nuds:persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+        <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+      </geographic>
+      <nuds:obverse>
+        <legend scriptCode="Latn">L VERVS AVG ARMENIACVS</legend>
+        <nuds:type>
+          <description xml:lang="en">Bust of Lucius Verus, bare-headed, draped, cuirassed, right</description>
+        </nuds:type>
+        <nuds:persname xlink:type="simple" xlink:role="portrait">Lucius Verus</nuds:persname>
+      </nuds:obverse>
+      <reverse>
+        <legend scriptCode="Latn">TR P IIII IMP II COS II</legend>
+        <nuds:type>
+          <description xml:lang="en">Hercules, standng front, head right, wearing lion-skin on head and draped over left arm, holding laurel-branch in right hand and club in left hand</description>
+        </nuds:type>
+        <nuds:persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Hercules</nuds:persname>
+      </reverse>
+    </nuds:typeDesc>
+  </descMeta>
+</nuds>

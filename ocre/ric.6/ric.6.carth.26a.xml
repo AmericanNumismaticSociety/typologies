@@ -1,0 +1,70 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.6.carth.26a</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2016-06-24T16:30:11-04:00">Fri, 24 Jun 2016 16:30:11 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC VI Carthage 26a</title>
+        <typeDesc>
+            <date standardDate="0298">AD 298</date>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae1">AE1</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/maximian">Maximian</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/carthage">Carthage</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/zeugitana">Zeugitana</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">CONSTANTIVS NOB CAES</legend>
+                <type>
+                    <description xml:lang="en">Head of Constantius Chlorus, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/constantius_chlorus">Constantius Chlorus</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">FELIX AD-VENT AVGG NN or FELIX A-D-VENT AVGG NN or FELIX AD-V-ENT AVGG NN or FELIX ADV-E-NT AVGG NN or FELIX A-DV-ENT AVGG NN or FELIX AD-VE-NT AVGG NN</legend>
+                <type>
+                    <description xml:lang="en">Africa, wearing elephant-skin head-dress, draped, standing front, head left, holding standard in right hand and tusk in left hand; to left, lion with captured bull</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity">Africa</persname>
+                <symbol localType="mintMark">I/-//Γ</symbol>
+                <symbol localType="mintMark">H/-//Γ</symbol>
+                <symbol localType="mintMark">-/I//Γ</symbol>
+                <symbol localType="mintMark">-/H//Γ</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

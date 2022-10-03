@@ -1,0 +1,70 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.10.arc_e.103</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:52:53-04:00">Fri, 24 Jun 2016 16:52:53 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC X Arcadius 103</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0401">AD 401</fromDate>
+            <toDate standardDate="0403">AD 403</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae3">AE3</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/arcadius">Arcadius</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/cyzicus">Cyzicus</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/mysia">Mysia</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">AEL EVDO-XIA AVG</legend>
+            <type>
+               <description xml:lang="en">Bust of Eudoxia, pearl-diademed, draped, right, wearing necklace and earrings, crowned by Hand of God</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/aelia_eudoxia">Aelia Eudoxia</persname>
+         </obverse>
+         <reverse>
+            <legend scriptCode="Latn">SALVS REI - PVBLICAE</legend>
+            <type>
+               <description xml:lang="en">Victory, winged, draped, seated right on cuirass, pointing to a shield inscribed with a ☧, supported on a low column</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60915">Victory</persname>
+            <symbol localType="mintMark">-/-//SMKA</symbol>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

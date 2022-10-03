@@ -1,0 +1,84 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.2.ner.47</recordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.2.ner.47_denarius</otherRecordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.2.ner.47_aureus</otherRecordId>
+        <maintenanceStatus>cancelledSplit</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>new</eventType>
+                <eventDateTime standardDateTime="2012-09-12T12:33:50-04:00Z">2012-09-12T12:33:50-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Ethan Gruber</agent>
+                <eventDescription>Generated from OCRE spreadsheet</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>revised</eventType>
+                <eventDateTime standardDateTime="2013-09-11T16:26:22.825-04:00Z">2013-09-11T16:26:22.825-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Migrated to new NUDS schema version; nudsHeader to control.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>cancelledSplit</eventType>
+                <eventDateTime standardDateTime="2013-10-09T11:01:48-04:00">Wed, 09 Oct 2013 11:01:48 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>URI cancelled and replaced following OCRE renumbering.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:03:59.54-05:00">4 November 2014 11:03:59:54</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <publicationStmt>
+            <publisher>American Numismatic Society</publisher>
+        </publicationStmt>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title>RIC II Nerva 47</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <date standardDate="0098">AD 98 - AD 98</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</denomination>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <obverse>
+                <legend>IMP NERVA CAES AVG GERM P M TR P II</legend>
+                <type>
+                    <description xml:lang="en">Head of Nerva, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait">Nerva</persname>
+            </obverse>
+            <reverse>
+                <legend>IMP II COS IIII P P</legend>
+                <type>
+                    <description xml:lang="en">Simpulum, sprinkler, ewer and lituus</description>
+                </type>
+            </reverse>
+            <geographic>
+                <geogname xlink:role="mint" xlink:type="simple" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:role="region" xlink:type="simple" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <authority>
+                <persname xlink:role="authority" xlink:type="simple" xlink:href="http://nomisma.org/id/nerva">Nerva</persname>
+            </authority>
+        </typeDesc>
+    </descMeta>
+</nuds>

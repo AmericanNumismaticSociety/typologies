@@ -1,0 +1,77 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.2.hdn.323e?</recordId>
+      <publicationStatus>deprecatedType</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>cancelled</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2017-07-17T15:37:30-04:00">Mon, 17 Jul 2017 15:37:30 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2020-06-02T17:04:35.785-04:00">2 June 2020 17:04:35</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>XSLT</agent>
+            <eventDescription>Deprecated Hadrian record and replaced with ID from new volume.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC II Hadrian 323e?</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0134">AD 134</fromDate>
+            <toDate standardDate="0138">AD 138</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">HADRIANVS AVG COS III P P</legend>
+            <type>
+               <description xml:lang="en">Bust of Hadrian, laureate, draped on left shoulder, right?</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+         </obverse>
+         <reverse>
+            <legend scriptCode="Latn">RESTITVTORI AFRICAE</legend>
+            <type>
+               <description xml:lang="en">Hadrian, togate, standing right, holding roll in left hand and extending right to raise up Africa, wearing elephant-skin headdress, holding corn-ears, kneeling right; corn-ears center</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+            <persname xlink:type="simple" xlink:role="deity">Africa</persname>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

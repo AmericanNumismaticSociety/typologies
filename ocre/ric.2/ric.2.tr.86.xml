@@ -1,0 +1,68 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.2.tr.86</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2013-10-15T09:13:20-04:00">Tue, 15 Oct 2013 09:13:20 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:04:47.702-05:00">4 November 2014 11:04:47:70</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC II Trajan 86</title>
+        <typeDesc>
+            <dateRange>
+                <fromDate standardDate="0103">AD 103</fromDate>
+                <toDate standardDate="0111">AD 111</toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/trajan">Trajan</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">IMP NERVA TRAIANVS AVG GER DACICVS</legend>
+                <type>
+                    <description xml:lang="en">Head of Trajan, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/trajan">Trajan</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">P M TR P COS V P P</legend>
+                <type>
+                    <description xml:lang="en">Trajan standing in quadriga left, holding branch and sceptre</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/trajan">Trajan</persname>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

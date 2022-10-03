@@ -1,0 +1,66 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.5.dio.648</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2016-08-31T19:45:19-04:00">Wed, 31 Aug 2016 19:45:19 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC V Diocletian 648</title>
+        <typeDesc>
+            <date standardDate="0295">AD 295</date>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/antoninianus">Antoninianus</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/maximian">Maximian</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/lugdunum">Lugdunum</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/gallia">Gallia</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">CONSTANTIVS NOB C</legend>
+                <type>
+                    <description xml:lang="en">Bust of Constantius Chlorus, radiate, draped, right, or bust of Constantius Chlorus, radiate, wearing imperial mantle, left, holding eagle-tipped scetpre in right hand</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/constantius_chlorus">Constantius Chlorus</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">VIRTVS AVGG</legend>
+                <type>
+                    <description xml:lang="en">Trophy flanked by two captives</description>
+                </type>
+                <symbol localType="mintMark">-/-//B</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

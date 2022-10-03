@@ -1,0 +1,75 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>ric.2_3(2).hdn.569</recordId>
+        <otherRecordId semantic="dcterms:replaces">ric.2.hdn.110c</otherRecordId>
+        <otherRecordId semantic="skos:exactMatch">http://numismatics.org/ocre/id/ric.2.hdn.110c</otherRecordId>
+        <otherRecordId semantic="skos:broader">ric.2_3(2).hdn.567-571</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-01-20T14:43:52-06:00">Thu, 20 Jan 2022 14:43:52 -0600</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC II, Part 3 (second edition) Hadrian 569</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <dateRange>
+                <fromDate standardDate="0121">AD 121</fromDate>
+                <toDate standardDate="0123">AD 123</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn" xml:lang="la">IMP CAESAR TRAIAN HADRIANVS AVG</legend>
+                <type>
+                    <description xml:lang="en">Bust of Hadrian, laureate, cuirassed, cropped of pteryges, right, viewed from front</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/hadrian">Hadrian</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn" xml:lang="la">P M TR P COS III</legend>
+                <type>
+                    <description xml:lang="en">Hadrian-Fortuna standing left, holding rudder on globe and spear or sceptre</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/fortuna">Fortuna</persname>
+            </reverse>
+        </typeDesc>
+        <refDesc>
+            <reference xlink:type="simple" xlink:href="http://numismatics.org/ocre/id/ric.2.hdn.110c">RIC II Hadrian 110c</reference>
+        </refDesc>
+    </descMeta>
+</nuds>

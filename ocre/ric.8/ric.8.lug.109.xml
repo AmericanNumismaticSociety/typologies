@@ -1,0 +1,73 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>ric.8.lug.109</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2018-07-24T15:32:02-04:00">Tue, 24 Jul 2018 15:32:02 -0400</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>American Numismatic Society</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>nmo</prefix>
+      <namespace>http://nomisma.org/ontology#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RIC VIII Lugdunum 109</title>
+    <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+      <dateRange>
+        <nuds:fromDate standardDate="0350">AD 350</nuds:fromDate>
+        <nuds:toDate standardDate="0351">AD 351</nuds:toDate>
+      </dateRange>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/large_ae2">Large AE2</nuds:denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/billon" certainty="uncertain">Billon</material>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae" certainty="uncertain">Bronze</material>
+      <authority>
+        <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/magnentius">Magnentius</nuds:persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/lugdunum">Lugdunum</geogname>
+        <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/gallia">Gallia</geogname>
+      </geographic>
+      <nuds:obverse>
+        <legend scriptCode="Latn">D N MAGNEN-TIVS P F AVG</legend>
+        <nuds:type>
+          <description xml:lang="en">Bust of Magnentius, rosette-diademed, draped, cuirassed, right</description>
+        </nuds:type>
+        <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/magnentius">Magnentius</nuds:persname>
+      </nuds:obverse>
+      <reverse>
+        <legend scriptCode="Latn">FELICITAS - REI PVBLICAE</legend>
+        <nuds:type>
+          <description xml:lang="en">Magnentius, draped, cuirassed, standing left, holding Victory on globe in right hand and standard with ☧ on banner in left hand</description>
+        </nuds:type>
+        <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/magnentius">Magnentius</nuds:persname>
+        <symbol localType="mintMark">-/-//FPLG</symbol>
+        <symbol localType="officinaMark">P</symbol>
+        <symbol localType="officinaMark">S</symbol>
+      </reverse>
+    </nuds:typeDesc>
+  </descMeta>
+</nuds>

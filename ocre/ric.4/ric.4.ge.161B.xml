@@ -1,0 +1,66 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.4.ge.161B</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2017-02-08T11:24:20-05:00">Wed, 08 Feb 2017 11:24:20 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC IV Geta 161B</title>
+        <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+            <date standardDate="0210">AD 210</date>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/dupondius">Dupondius</nuds:denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/septimius_severus">Septimius Severus</nuds:persname>
+                <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/geta">Geta</nuds:persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <nuds:obverse>
+                <legend scriptCode="Latn">IMP CAES P SEPT GETA PIVS AVG</legend>
+                <nuds:type>
+                    <description xml:lang="en">Head of Geta, radiate, right</description>
+                </nuds:type>
+                <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/geta">Geta</nuds:persname>
+            </nuds:obverse>
+            <reverse>
+                <legend scriptCode="Latn">PONTIF TR P II COS II S C</legend>
+                <nuds:type>
+                    <description xml:lang="en">Woman, standing right, holding sceptre and drawing out drapery from breast; to right, two small figures lifting hands to one another</description>
+                </nuds:type>
+            </reverse>
+        </nuds:typeDesc>
+    </descMeta>
+</nuds>

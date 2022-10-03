@@ -1,0 +1,88 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.2.tr.614</recordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.2.tr.614_as</otherRecordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.2.tr.614_sestertius</otherRecordId>
+        <maintenanceStatus>cancelledSplit</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>new</eventType>
+                <eventDateTime standardDateTime="2012-09-12T12:36:13-04:00Z">2012-09-12T12:36:13-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Ethan Gruber</agent>
+                <eventDescription>Generated from OCRE spreadsheet</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>revised</eventType>
+                <eventDateTime standardDateTime="2013-09-11T16:26:26.402-04:00Z">2013-09-11T16:26:26.402-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Migrated to new NUDS schema version; nudsHeader to control.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>cancelledSplit</eventType>
+                <eventDateTime standardDateTime="2013-10-09T11:02:09-04:00">Wed, 09 Oct 2013 11:02:09 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>URI cancelled and replaced following OCRE renumbering.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:03:17.57-05:00">4 November 2014 11:03:17:57</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <publicationStmt>
+            <publisher>American Numismatic Society</publisher>
+        </publicationStmt>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title>RIC II Trajan 614</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <dateRange>
+                <fromDate standardDate="0112">AD 112</fromDate>
+                <toDate standardDate="0114">AD 114</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/sestertius">Sestertius</denomination>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/as">As</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/orichalcum">Orichalcum</material>
+            <material xlink:type="simple" xlink:href="copper"/>
+            <obverse>
+                <legend>IMP CAES NERVAE TRAIANO AVG GER DAC P M TR P COS VI P P</legend>
+                <type>
+                    <description xml:lang="en">Head of Trajan, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait">Trajan</persname>
+            </obverse>
+            <reverse>
+                <legend>S P Q R OPTIMO PRINCIPI S C ARAB ADQVIS</legend>
+                <type>
+                    <description xml:lang="en">Arabia, draped, standing front, head left, holding branch in right hand over camel, left, half hidden behind her and bundle of canes(?) over left arm in left</description>
+                </type>
+                <persname xlink:role="deity" xlink:type="simple">Arabia</persname>
+            </reverse>
+            <geographic>
+                <geogname xlink:role="mint" xlink:type="simple" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:role="region" xlink:type="simple" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <authority>
+                <persname xlink:role="authority" xlink:type="simple" xlink:href="http://nomisma.org/id/trajan">Trajan</persname>
+            </authority>
+        </typeDesc>
+    </descMeta>
+</nuds>

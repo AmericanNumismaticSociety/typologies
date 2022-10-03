@@ -1,0 +1,70 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.6.carth.75</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2016-06-24T16:30:22-04:00">Fri, 24 Jun 2016 16:30:22 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC VI Carthage 75</title>
+        <typeDesc>
+            <dateRange>
+                <fromDate standardDate="0308">AD 308</fromDate>
+                <toDate standardDate="0311">AD 311</toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae2">AE2</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/domitius_alexander">Domitius Alexander</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/carthage">Carthage</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/zeugitana">Zeugitana</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">IMP C ALEXANDER P F AVG</legend>
+                <type>
+                    <description xml:lang="en">Head of Domitius Alexander, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/domitius_alexander">Domitius Alexander</persname>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">ROMAE A-ETERNAE</legend>
+                <type>
+                    <description xml:lang="en">Roma, helmeted, draped, seated front, head left, holding globe in right hand and leaning on sceptre or spear with left hand, in hexastyle temple; in pediment, dot or empty</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
+                <symbol localType="mintMark">-/-//P*K</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

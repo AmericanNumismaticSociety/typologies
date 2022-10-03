@@ -1,0 +1,72 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.4.tr_g.86.11</recordId>
+        <otherRecordId semantic="skos:broader">ric.4.tr_g.86</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2017-02-08T11:43:12-05:00">Wed, 08 Feb 2017 11:43:12 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC IV Trebonianus Gallus 86: Subtype 11</title>
+        <typeDesc>
+            <dateRange>
+                <fromDate standardDate="0251">AD 251</fromDate>
+                <toDate standardDate="0253">AD 253</toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/antoninianus">Antoninianus</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/trebonianus_gallus">Trebonianus Gallus</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/antiocheia_syria">Antioch</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/syria">Syria</geogname>
+            </geographic>
+            <obverse>
+                <legend scriptCode="Latn">IMP C C VIB TREB GALLVS P F AVG</legend>
+                <type>
+                    <description xml:lang="en">Bust of Trebonianus Gallus, radiate, draped, cuirassed, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/trebonianus_gallus">Trebonianus Gallus</persname>
+                <symbol localType="controlMark">VII</symbol>
+            </obverse>
+            <reverse>
+                <legend scriptCode="Latn">PAX AVGVS</legend>
+                <type>
+                    <description xml:lang="en">Pax, draped, standing left, holding branch in extended right hand and transverse sceptre in left hand</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/76227">Pax</persname>
+                <symbol position="exergue">VII</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
+</nuds>

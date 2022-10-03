@@ -1,0 +1,81 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.10.leo_ii-zen_e.804</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:54:27-04:00">Fri, 24 Jun 2016 16:54:27 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC X Leo II and Zeno 804</title>
+      <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+         <date standardDate="0474">AD 474</date>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/solidus">Solidus</nuds:denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+         <authority>
+            <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/leo_ii">Leo II</nuds:persname>
+            <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/zeno">Zeno</nuds:persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/constantinople">Constantinople</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/thrace">Thrace</geogname>
+         </geographic>
+         <nuds:obverse>
+            <legend scriptCode="Latn">D N LEO EƮ (rev.Z)-ENO PP AVG</legend>
+            <nuds:type>
+               <description xml:lang="en">Bust of Leo II or Zeno, helmeted, pearl-diademed, cuirassed, facing front, holding spear in right hand behind head and shield decorated with horseman on left arm</description>
+            </nuds:type>
+            <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/leo_ii" certainty="uncertain">Leo II</nuds:persname>
+            <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/zeno" certainty="uncertain">Zeno</nuds:persname>
+         </nuds:obverse>
+         <reverse>
+            <legend scriptCode="Latn">SALVS REI - PVBLICAE</legend>
+            <nuds:type>
+               <description xml:lang="en">Leo II and Zeno, nimbate, draped, enthroned, facing, each holding mappa in right hand; star above; cross behind</description>
+            </nuds:type>
+            <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/leo_ii">Leo II</nuds:persname>
+            <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/zeno">Zeno</nuds:persname>
+            <symbol localType="mintMark">-/-//CONOB</symbol>
+            <symbol localType="officinaMark">C</symbol>
+            <symbol localType="officinaMark">A</symbol>
+            <symbol localType="officinaMark">B</symbol>
+            <symbol localType="officinaMark">Γ</symbol>
+            <symbol localType="officinaMark">Δ</symbol>
+            <symbol localType="officinaMark">ε</symbol>
+            <symbol localType="officinaMark">S</symbol>
+            <symbol localType="officinaMark">Z</symbol>
+            <symbol localType="officinaMark">H</symbol>
+            <symbol localType="officinaMark">θ</symbol>
+            <symbol localType="officinaMark">I</symbol>
+         </reverse>
+      </nuds:typeDesc>
+   </descMeta>
+</nuds>

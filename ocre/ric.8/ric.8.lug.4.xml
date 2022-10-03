@@ -1,0 +1,72 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>ric.8.lug.4</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2018-07-24T15:31:48-04:00">Tue, 24 Jul 2018 15:31:48 -0400</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>American Numismatic Society</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>nmo</prefix>
+      <namespace>http://nomisma.org/ontology#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RIC VIII Lugdunum 4</title>
+    <typeDesc>
+      <dateRange>
+        <fromDate standardDate="0337">AD 337</fromDate>
+        <toDate standardDate="0340">AD 340</toDate>
+      </dateRange>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae3">AE3</denomination>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/billon" certainty="uncertain">Billon</material>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae" certainty="uncertain">Bronze</material>
+      <authority>
+        <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/constantine_ii">Constantine II</persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/lugdunum">Lugdunum</geogname>
+        <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/gallia">Gallia</geogname>
+      </geographic>
+      <obverse>
+        <legend scriptCode="Latn">CONSTANTI-NVS IVN AVG</legend>
+        <type>
+          <description xml:lang="en">Bust of Constantine II, laureate, cuirassed, right</description>
+        </type>
+        <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/constantine_ii">Constantine II</persname>
+      </obverse>
+      <reverse>
+        <legend scriptCode="Latn">GLOR-IA EXERC-ITVS</legend>
+        <type>
+          <description xml:lang="en">Two soldiers, helmeted, draped, cuirassed, facing front, heads toward each other, each holding inverted spear in outer hand and resting inner hand on shield; between them, a standard</description>
+        </type>
+        <symbol localType="mintMark">☧//PLG</symbol>
+        <symbol localType="officinaMark">P</symbol>
+        <symbol localType="officinaMark">S</symbol>
+      </reverse>
+    </typeDesc>
+  </descMeta>
+</nuds>

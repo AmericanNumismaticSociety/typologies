@@ -1,0 +1,71 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.10.marc_e.537</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:53:51-04:00">Fri, 24 Jun 2016 16:53:51 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC X Marcian 537</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0450">AD 450</fromDate>
+            <toDate standardDate="0457">AD 457</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae4">AE4</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/marcian">Marcian</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/heraclea_thracica">Heraclea</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/thrace">Thrace</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">D N MARCIANO P F A (or AV)</legend>
+            <type>
+               <description xml:lang="en">Bust of Marcian, pearl-diademed, draped, cuirassed, right</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/marcian">Marcian</persname>
+         </obverse>
+         <reverse>
+            <type>
+               <description xml:lang="en">Marcian monogram 1 within wreath</description>
+            </type>
+            <symbol localType="mintMark">-/-//SMHA</symbol>
+            <symbol localType="officinaMark">A</symbol>
+            <symbol localType="officinaMark">B</symbol>
+            <symbol xlink:type="simple" xlink:href="http://numismatics.org/ocre/symbol/monogram.ric.10.marcian.1" xlink:arcrole="nmo:hasControlmark">Monogram 1 (Marcian)</symbol>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

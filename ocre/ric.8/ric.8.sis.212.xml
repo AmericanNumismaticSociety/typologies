@@ -1,0 +1,89 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+   <control>
+      <recordId>ric.8.sis.212</recordId>
+      <publicationStatus>approved</publicationStatus>
+      <maintenanceAgency>
+         <agencyName>American Numismatic Society</agencyName>
+      </maintenanceAgency>
+      <maintenanceStatus>derived</maintenanceStatus>
+      <maintenanceHistory>
+         <maintenanceEvent>
+            <eventType>derived</eventType>
+            <eventDateTime standardDateTime="2016-06-24T16:48:47-04:00">Fri, 24 Jun 2016 16:48:47 -0400</eventDateTime>
+            <agentType>machine</agentType>
+            <agent>PHP</agent>
+            <eventDescription>Generated from OCRE CSV.</eventDescription>
+         </maintenanceEvent>
+      </maintenanceHistory>
+      <rightsStmt>
+         <copyrightHolder>American Numismatic Society</copyrightHolder>
+         <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+      </rightsStmt>
+      <semanticDeclaration>
+         <prefix>dcterms</prefix>
+         <namespace>http://purl.org/dc/terms/</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>skos</prefix>
+         <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+      </semanticDeclaration>
+      <semanticDeclaration>
+         <prefix>nmo</prefix>
+         <namespace>http://nomisma.org/ontology#</namespace>
+      </semanticDeclaration>
+   </control>
+   <descMeta>
+      <title xml:lang="en">RIC VIII Siscia 212</title>
+      <typeDesc>
+         <dateRange>
+            <fromDate standardDate="0348">AD 348</fromDate>
+            <toDate standardDate="0350">AD 350</toDate>
+         </dateRange>
+         <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+         <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+         <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/small_ae2">Small AE2</denomination>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/billon" certainty="uncertain">Billon</material>
+         <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae" certainty="uncertain">Bronze</material>
+         <authority>
+            <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/constans">Constans</persname>
+         </authority>
+         <geographic>
+            <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/siscia">Siscia</geogname>
+            <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/pannonia">Pannonia</geogname>
+         </geographic>
+         <obverse>
+            <legend scriptCode="Latn">D N CONSTA-NS P F AVG</legend>
+            <type>
+               <description xml:lang="en">Bust of Constans, pearl-diademed, draped, cuirassed, left, holding globe in right hand</description>
+            </type>
+            <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/constans">Constans</persname>
+         </obverse>
+         <reverse>
+            <legend scriptCode="Latn">FEL•TEMP•REPA-RATIO</legend>
+            <type>
+               <description xml:lang="en">Soldier, helmeted, draped, cuirassed, advancing right, head left, leading small bare-headed figure from a hut beneath a tree with right hand and holding spear in left hand</description>
+            </type>
+            <symbol localType="officinaMark">A</symbol>
+            <symbol localType="officinaMark">B</symbol>
+            <symbol localType="officinaMark">Γ</symbol>
+            <symbol localType="officinaMark">Δ</symbol>
+            <symbol localType="officinaMark">
+               <tei:div type="edition">
+                  <tei:ab>
+                     <tei:seg>∈</tei:seg>
+                  </tei:ab>
+                  <tei:ab>
+                     <tei:am>
+                        <tei:g type="nmo:Monogram" ref="http://numismatics.org/ocre/symbol/ric.8.siscia.off.1">Siscia Officina Mark 1</tei:g>
+                     </tei:am>
+                  </tei:ab>
+               </tei:div>
+            </symbol>
+            <symbol xlink:type="simple" xlink:href="http://numismatics.org/ocre/symbol/ric.8.siscia.off.2" xlink:arcrole="nmo:hasControlmark" localType="officinaMark">Siscia Officina Mark 2</symbol>
+            <symbol xlink:type="simple" xlink:href="http://numismatics.org/ocre/symbol/ric.8.siscia.off.3" xlink:arcrole="nmo:hasControlmark" localType="officinaMark">Siscia Officina Mark 3</symbol>
+            <symbol xlink:type="simple" xlink:href="http://numismatics.org/ocre/symbol/ric.8.siscia.off.4" xlink:arcrole="nmo:hasControlmark" localType="officinaMark">Siscia Officina Mark 4</symbol>
+            <symbol xlink:type="simple" xlink:href="http://numismatics.org/ocre/symbol/ric.8.siscia.off.5" xlink:arcrole="nmo:hasControlmark" localType="officinaMark">Siscia Officina Mark 5</symbol>
+         </reverse>
+      </typeDesc>
+   </descMeta>
+</nuds>

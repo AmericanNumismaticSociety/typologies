@@ -1,0 +1,85 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:mets="http://www.loc.gov/METS/" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.3.ant.226c</recordId>
+        <otherRecordId semantic="dcterms:isReplacedBy">ric.3.ant.226C</otherRecordId>
+        <maintenanceStatus>cancelledReplaced</maintenanceStatus>
+        <publicationStatus>inProcess</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>new</eventType>
+                <eventDateTime standardDateTime="2012-09-12T12:44:49-04:00Z">2012-09-12T12:44:49-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>Ethan Gruber</agent>
+                <eventDescription>Generated from OCRE spreadsheet</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>revised</eventType>
+                <eventDateTime standardDateTime="2013-09-11T16:26:04.837-04:00Z">2013-09-11T16:26:04.837-04:00Z</eventDateTime>
+                <agentType>human</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Migrated to new NUDS schema version; nudsHeader to control.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>cancelledReplaced</eventType>
+                <eventDateTime standardDateTime="2013-10-09T11:10:08-04:00">Wed, 09 Oct 2013 11:10:08 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>URI cancelled and replaced following OCRE renumbering.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2014-11-04T11:04:20.839-05:00">4 November 2014 11:04:20:84</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>XSLT</agent>
+                <eventDescription>Linked deities to BM URIs.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <publicationStmt>
+            <publisher>American Numismatic Society</publisher>
+        </publicationStmt>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title>RIC III Antoninus Pius 226c</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <dateRange>
+                <fromDate standardDate="0152">AD 152</fromDate>
+                <toDate standardDate="0153">AD 153</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/aureus">Aureus</denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/av">Gold</material>
+            <obverse>
+                <legend>ANTONINVS AVG PIVS P P TR P XVI</legend>
+                <type>
+                    <description xml:lang="en">Head of Antoninus Pius, laureate, right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait">Antoninus Pius</persname>
+            </obverse>
+            <reverse>
+                <legend>COS IIII</legend>
+                <type>
+                    <description xml:lang="en">Antoninus Pius, standing left, holding globe, left arm at side</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait">Antoninus Pius</persname>
+            </reverse>
+            <geographic>
+                <geogname xlink:role="mint" xlink:type="simple" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+                <geogname xlink:role="region" xlink:type="simple" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+            </geographic>
+            <authority>
+                <persname xlink:role="authority" xlink:type="simple" xlink:href="http://nomisma.org/id/antoninus_pius">Antoninus Pius</persname>
+            </authority>
+        </typeDesc>
+    </descMeta>
+</nuds>

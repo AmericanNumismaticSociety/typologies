@@ -1,0 +1,61 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+  <control>
+    <recordId>ric.4.ph_i.199</recordId>
+    <publicationStatus>approved</publicationStatus>
+    <maintenanceAgency>
+      <agencyName>American Numismatic Society</agencyName>
+    </maintenanceAgency>
+    <maintenanceStatus>derived</maintenanceStatus>
+    <maintenanceHistory>
+      <maintenanceEvent>
+        <eventType>derived</eventType>
+        <eventDateTime standardDateTime="2018-08-08T11:43:17-04:00">Wed, 08 Aug 2018 11:43:17 -0400</eventDateTime>
+        <agentType>machine</agentType>
+        <agent>PHP</agent>
+        <eventDescription>Generated from OCRE CSV.</eventDescription>
+      </maintenanceEvent>
+    </maintenanceHistory>
+    <rightsStmt>
+      <copyrightHolder>American Numismatic Society</copyrightHolder>
+      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+    </rightsStmt>
+    <semanticDeclaration>
+      <prefix>dcterms</prefix>
+      <namespace>http://purl.org/dc/terms/</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>skos</prefix>
+      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+    </semanticDeclaration>
+    <semanticDeclaration>
+      <prefix>nmo</prefix>
+      <namespace>http://nomisma.org/ontology#</namespace>
+    </semanticDeclaration>
+  </control>
+  <descMeta>
+    <title xml:lang="en">RIC IV Philip I 199</title>
+    <typeDesc>
+      <date standardDate="0248">AD 248</date>
+      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+      <authority>
+        <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/philip_the_arab">Philip the Arab</persname>
+      </authority>
+      <geographic>
+        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+        <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/italy">Italy</geogname>
+      </geographic>
+      <obverse>
+        <legend scriptCode="Latn">MARCIA OTACIL SEVERA AVG</legend>
+        <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/otacilia_severa">Otacilia Severa</persname>
+      </obverse>
+      <reverse>
+        <legend scriptCode="Latn">MILIARIVM SAECVLVM S C</legend>
+        <type>
+          <description xml:lang="en">Low column</description>
+        </type>
+      </reverse>
+    </typeDesc>
+  </descMeta>
+</nuds>

@@ -1,0 +1,74 @@
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
+    <control>
+        <recordId>ric.7.sis.205</recordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2016-06-24T16:40:17-04:00">Fri, 24 Jun 2016 16:40:17 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from OCRE CSV.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <copyrightHolder>American Numismatic Society</copyrightHolder>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RIC VII Siscia 205</title>
+        <nuds:typeDesc xmlns:nuds="http://nomisma.org/nuds">
+            <dateRange>
+                <nuds:fromDate standardDate="0326">AD 326</nuds:fromDate>
+                <nuds:toDate standardDate="0327">AD 327</nuds:toDate>
+            </dateRange>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae2" certainty="uncertain">AE2</nuds:denomination>
+            <nuds:denomination xlink:type="simple" xlink:href="http://nomisma.org/id/ae3" certainty="uncertain">AE3</nuds:denomination>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <nuds:persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/constantine_i">Constantine I</nuds:persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/siscia">Siscia</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/pannonia">Pannonia</geogname>
+            </geographic>
+            <nuds:obverse>
+                <legend scriptCode="Latn">FLAV MAX - FAVSTA AVG</legend>
+                <nuds:type>
+                    <description xml:lang="en">Bust of Fausta, waved hair, mantled, right</description>
+                </nuds:type>
+                <nuds:persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/fausta">Fausta</nuds:persname>
+            </nuds:obverse>
+            <reverse>
+                <legend scriptCode="Latn">SPES REIP-VBLICAE</legend>
+                <nuds:type>
+                    <description xml:lang="en">Spes, veiled, draped, standing front, head left, holding two children in her arms</description>
+                </nuds:type>
+                <nuds:persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58658">Spes</nuds:persname>
+                <symbol localType="mintMark">-/-//•ASIS•</symbol>
+                <symbol localType="officinaMark">A</symbol>
+                <symbol localType="officinaMark">B</symbol>
+                <symbol localType="officinaMark">Δ</symbol>
+            </reverse>
+        </nuds:typeDesc>
+    </descMeta>
+</nuds>
