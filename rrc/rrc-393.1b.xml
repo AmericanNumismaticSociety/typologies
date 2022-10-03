@@ -1,64 +1,80 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-  <control>
-    <recordId>rrc-393.1b</recordId>
-    <publicationStatus>approved</publicationStatus>
-    <maintenanceAgency>
-      <agencyName>American Numismatic Society</agencyName>
-    </maintenanceAgency>
-    <maintenanceStatus>derived</maintenanceStatus>
-    <maintenanceHistory>
-      <maintenanceEvent>
-        <eventType>derived</eventType>
-        <eventDateTime standardDateTime="2015-01-09T08:59:12-05:00">Fri, 09 Jan 2015 08:59:12 -0500</eventDateTime>
-        <agentType>machine</agentType>
-        <agent>PHP</agent>
-        <eventDescription>Generated from OCRE CSV.</eventDescription>
-      </maintenanceEvent>
-    </maintenanceHistory>
-    <rightsStmt>
-      <copyrightHolder>British Museum</copyrightHolder>
-      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-    </rightsStmt>
-    <semanticDeclaration>
-      <prefix>dcterms</prefix>
-      <namespace>http://purl.org/dc/terms/</namespace>
-    </semanticDeclaration>
-    <semanticDeclaration>
-      <prefix>skos</prefix>
-      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
-    </semanticDeclaration>
-  </control>
-  <descMeta>
-    <title xml:lang="en">RRC 393/1b</title>
-    <typeDesc>
-      <dateRange>
-        <fromDate standardDate="-0076">76 B.C.</fromDate>
-        <toDate standardDate="-0074">74 B.C.</toDate>
-      </dateRange>
-      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
-      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
-      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
-      <authority>
-        <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/cn_len_q_rrc">Cn. Cornelius Lentulus Marcellinus</persname>
-      </authority>
-      <geographic>
-        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/hispania">Hispania</geogname>
-      </geographic>
-      <obverse>
-        <legend scriptCode="Latn">G·P·R</legend>
-        <type>
-          <description xml:lang="en">Bust of Genius Populi Romani right, draped and hair tied with band, with sceptre over shoulder . Border of dots.</description>
-        </type>
-        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58396">Genius</persname>
-      </obverse>
-      <reverse>
-        <legend scriptCode="Latn">EX S·C CN·LEN Q</legend>
-        <type>
-          <description xml:lang="en">Sceptre with wreath, globe and rudder . Border of dots.</description>
-        </type>
-      </reverse>
-    </typeDesc>
-  </descMeta>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>rrc-393.1b</recordId>
+        <otherRecordId semantic="skos:broader">rrc-393.1</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2015-01-09T08:58:35-05:00">Fri, 09 Jan 2015 08:58:35 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from original RRC spreadsheet compiled by Eleanor Ghey and extracted from the British Museum catalog and supplemented by Rick Witschonke.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-05-10T11:09:42-04:00">Tue, 10 May 2022 11:09:42 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RRC 393/1b</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <dateRange>
+                <fromDate standardDate="-0076">76 BC</fromDate>
+                <toDate standardDate="-0074">74 BC</toDate>
+            </dateRange>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/cn_len_q_rrc">Cn. Cornelius Lentulus Marcellinus</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/uncertain_value">Uncertain value</geogname>
+                <geogname xlink:type="simple" xlink:role="region" xlink:href="http://nomisma.org/id/hispania">Hispania</geogname>
+            </geographic>
+            <obverse>
+                <legend>G·P·R</legend>
+                <type>
+                    <description xml:lang="en">Bust of Genius Populi Romani, right, draped and hair tied with band, with sceptre over shoulder. Border of dots.</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/genius">Genius</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab>EX / S·C / LE<tei:hi rend="ligature">NT</tei:hi>·CVR·X·FL or LE<tei:hi rend="ligature">NT</tei:hi>·CVR·X·F</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Sceptre with wreath, globe, and rudder. Border of dots.</description>
+                </type>
+            </reverse>
+        </typeDesc>
+    </descMeta>
 </nuds>

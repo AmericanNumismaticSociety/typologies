@@ -1,60 +1,74 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-  <control>
-    <recordId>rrc-439.1</recordId>
-    <publicationStatus>approved</publicationStatus>
-    <maintenanceAgency>
-      <agencyName>American Numismatic Society</agencyName>
-    </maintenanceAgency>
-    <maintenanceStatus>derived</maintenanceStatus>
-    <maintenanceHistory>
-      <maintenanceEvent>
-        <eventType>derived</eventType>
-        <eventDateTime standardDateTime="2015-01-09T08:59:20-05:00">Fri, 09 Jan 2015 08:59:20 -0500</eventDateTime>
-        <agentType>machine</agentType>
-        <agent>PHP</agent>
-        <eventDescription>Generated from OCRE CSV.</eventDescription>
-      </maintenanceEvent>
-    </maintenanceHistory>
-    <rightsStmt>
-      <copyrightHolder>British Museum</copyrightHolder>
-      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-    </rightsStmt>
-    <semanticDeclaration>
-      <prefix>dcterms</prefix>
-      <namespace>http://purl.org/dc/terms/</namespace>
-    </semanticDeclaration>
-    <semanticDeclaration>
-      <prefix>skos</prefix>
-      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
-    </semanticDeclaration>
-  </control>
-  <descMeta>
-    <title xml:lang="en">RRC 439/1</title>
-    <typeDesc>
-      <date standardDate="-0050">50 B.C.</date>
-      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
-      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
-      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
-      <authority>
-        <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/marcellinvs_rrc">P. Cornelius Lentulus Marcellinus</persname>
-      </authority>
-      <geographic>
-        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
-      </geographic>
-      <obverse>
-        <legend scriptCode="Latn">MARCELLINVS</legend>
-        <type>
-          <description xml:lang="en">Head of M. Claudius Marcellus right; behind, triskele. Border of dots.</description>
-        </type>
-      </obverse>
-      <reverse>
-        <legend scriptCode="Latn">MARCELLVS COS·QVINQ</legend>
-        <type>
-          <description xml:lang="en">Figure of M. Claudius Marcellus carrying trophy into temple. Border of dots.</description>
-        </type>
-      </reverse>
-    </typeDesc>
-  </descMeta>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>rrc-439.1</recordId>
+        <otherRecordId localType="sortId">1350</otherRecordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2015-01-09T08:58:35-05:00">Fri, 09 Jan 2015 08:58:35 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from original RRC spreadsheet compiled by Eleanor Ghey and extracted from the British Museum catalog and supplemented by Rick Witschonke.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-05-10T11:10:08-04:00">Tue, 10 May 2022 11:10:08 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RRC 439/1</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date standardDate="-0050">50 BC</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/marcellinvs_rrc">P. Cornelius Lentulus Marcellinus</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+            </geographic>
+            <obverse>
+                <legend>MARCELLINVS</legend>
+                <type>
+                    <description xml:lang="en">Head of M. Claudius Marcellus, right. Border of dots.</description>
+                </type>
+                <symbol position="behind">Triskeles</symbol>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/marcus_claudius_marcellus_rrc">Marcus Claudius Marcellus</persname>
+            </obverse>
+            <reverse>
+                <legend>MARCELLVS COS·QVINQ</legend>
+                <type>
+                    <description xml:lang="en">Figure of M. Claudius Marcellus carrying trophy into temple. Border of dots.</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/marcus_claudius_marcellus_rrc">Marcus Claudius Marcellus</persname>
+            </reverse>
+        </typeDesc>
+    </descMeta>
 </nuds>

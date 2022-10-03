@@ -1,60 +1,73 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-  <control>
-    <recordId>rrc-338.4c</recordId>
-    <publicationStatus>approved</publicationStatus>
-    <maintenanceAgency>
-      <agencyName>American Numismatic Society</agencyName>
-    </maintenanceAgency>
-    <maintenanceStatus>derived</maintenanceStatus>
-    <maintenanceHistory>
-      <maintenanceEvent>
-        <eventType>derived</eventType>
-        <eventDateTime standardDateTime="2015-01-09T08:59:03-05:00">Fri, 09 Jan 2015 08:59:03 -0500</eventDateTime>
-        <agentType>machine</agentType>
-        <agent>PHP</agent>
-        <eventDescription>Generated from OCRE CSV.</eventDescription>
-      </maintenanceEvent>
-    </maintenanceHistory>
-    <rightsStmt>
-      <copyrightHolder>British Museum</copyrightHolder>
-      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-    </rightsStmt>
-    <semanticDeclaration>
-      <prefix>dcterms</prefix>
-      <namespace>http://purl.org/dc/terms/</namespace>
-    </semanticDeclaration>
-    <semanticDeclaration>
-      <prefix>skos</prefix>
-      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
-    </semanticDeclaration>
-  </control>
-  <descMeta>
-    <title xml:lang="en">RRC 338/4c</title>
-    <typeDesc>
-      <date standardDate="-0091">91 B.C.</date>
-      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
-      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/quadrans">Quadrans</denomination>
-      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
-      <authority>
-        <persname xlink:type="simple" xlink:role="issuer">L.P.D.A.P</persname>
-      </authority>
-      <geographic>
-        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
-      </geographic>
-      <obverse>
-        <type>
-          <description xml:lang="en">Head of Hercules, right; behind, denominational mark.</description>
-        </type>
-        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58628">Hercules</persname>
-      </obverse>
-      <reverse>
-        <legend scriptCode="Latn">L·P·D·A·P</legend>
-        <type>
-          <description xml:lang="en">Prow, right; denominational mark above inscription.</description>
-        </type>
-      </reverse>
-    </typeDesc>
-  </descMeta>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>rrc-338.4c</recordId>
+        <otherRecordId semantic="skos:broader">rrc-338.4</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2015-01-09T08:58:35-05:00">Fri, 09 Jan 2015 08:58:35 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from original RRC spreadsheet compiled by Eleanor Ghey and extracted from the British Museum catalog and supplemented by Rick Witschonke.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-05-10T11:09:15-04:00">Tue, 10 May 2022 11:09:15 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RRC 338/4c</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date standardDate="-0091">91 BC</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/quadrans">Quadrans</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/anonymous">Anonymous</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+            </geographic>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Head of Hercules, right.</description>
+                </type>
+                <symbol position="behind">Denominational mark</symbol>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/hercules">Hercules</persname>
+            </obverse>
+            <reverse>
+                <legend>L·P·D·A·P</legend>
+                <type>
+                    <description xml:lang="en">Prow, right.</description>
+                </type>
+                <symbol position="above">Denominational mark</symbol>
+            </reverse>
+        </typeDesc>
+    </descMeta>
 </nuds>

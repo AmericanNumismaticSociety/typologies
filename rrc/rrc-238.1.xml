@@ -1,62 +1,78 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<nuds xmlns="http://nomisma.org/nuds" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" recordType="conceptual">
-  <control>
-    <recordId>rrc-238.1</recordId>
-    <publicationStatus>approved</publicationStatus>
-    <maintenanceAgency>
-      <agencyName>American Numismatic Society</agencyName>
-    </maintenanceAgency>
-    <maintenanceStatus>derived</maintenanceStatus>
-    <maintenanceHistory>
-      <maintenanceEvent>
-        <eventType>derived</eventType>
-        <eventDateTime standardDateTime="2015-01-09T08:58:43-05:00">Fri, 09 Jan 2015 08:58:43 -0500</eventDateTime>
-        <agentType>machine</agentType>
-        <agent>PHP</agent>
-        <eventDescription>Generated from OCRE CSV.</eventDescription>
-      </maintenanceEvent>
-    </maintenanceHistory>
-    <rightsStmt>
-      <copyrightHolder>British Museum</copyrightHolder>
-      <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
-    </rightsStmt>
-    <semanticDeclaration>
-      <prefix>dcterms</prefix>
-      <namespace>http://purl.org/dc/terms/</namespace>
-    </semanticDeclaration>
-    <semanticDeclaration>
-      <prefix>skos</prefix>
-      <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
-    </semanticDeclaration>
-  </control>
-  <descMeta>
-    <title xml:lang="en">RRC 238/1</title>
-    <typeDesc>
-      <date standardDate="-0136">136 B.C.</date>
-      <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
-      <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
-      <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
-      <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
-      <authority>
-        <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/l_antes_gragv_rrc">L. Antestius Gragulus</persname>
-      </authority>
-      <geographic>
-        <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
-      </geographic>
-      <obverse>
-        <legend scriptCode="Latn">X (crossed) GRAG</legend>
-        <type>
-          <description xml:lang="en">Helmeted head of Roma, right. Border of dots.</description>
-        </type>
-        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/60208">Roma</persname>
-      </obverse>
-      <reverse>
-        <legend scriptCode="Latn">L·ANTES</legend>
-        <type>
-          <description xml:lang="en">Jupiter in quadriga, right, holding sceptre and reins in left hand and hurling thunderbolt with right hand . Line border.</description>
-        </type>
-        <persname xlink:type="simple" xlink:role="deity" xlink:href="http://collection.britishmuseum.org/id/person-institution/58921">Jupiter</persname>
-      </reverse>
-    </typeDesc>
-  </descMeta>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>rrc-238.1</recordId>
+        <otherRecordId localType="sortId">0888</otherRecordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2015-01-09T08:58:35-05:00">Fri, 09 Jan 2015 08:58:35 -0500</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from original RRC spreadsheet compiled by Eleanor Ghey and extracted from the British Museum catalog and supplemented by Rick Witschonke.</eventDescription>
+            </maintenanceEvent>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2022-05-10T11:08:19-04:00">Tue, 10 May 2022 11:08:19 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from ANS Curatorial Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">RRC 238/1</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date standardDate="-0136">136 BC</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denarius">Denarius</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <authority>
+                <persname xlink:type="simple" xlink:role="issuer" xlink:href="http://nomisma.org/id/l_antes_gragv_rrc">L. Antestius Gragulus</persname>
+            </authority>
+            <geographic>
+                <geogname xlink:type="simple" xlink:role="mint" xlink:href="http://nomisma.org/id/rome">Rome</geogname>
+            </geographic>
+            <obverse>
+                <legend>GRAG</legend>
+                <type>
+                    <description xml:lang="en">Helmeted head of Roma, right. Border of dots.</description>
+                </type>
+                <symbol position="before">X (crossed)</symbol>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/roma">Roma</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab>L·<tei:hi rend="ligature">ANTE</tei:hi>S ROMA</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Jupiter in quadriga, right, holding sceptre and reins in left hand and hurling thunderbolt with right hand. Line border.</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/jupiter">Jupiter</persname>
+            </reverse>
+        </typeDesc>
+    </descMeta>
 </nuds>
