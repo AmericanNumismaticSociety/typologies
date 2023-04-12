@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.philoxenus.9.1</recordId>
+        <otherRecordId localType="typeNumber">9.1</otherRecordId>
+        <otherRecordId localType="sortId">1265</otherRecordId>
+        <otherRecordId semantic="skos:broader">bigr.philoxenus.9</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:42:05-04:00">Wed, 12 Apr 2023 13:42:05 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Philoxenus 9.1</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0125" notAfter="-0110">second half second century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/drachma">Drachma</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/rectangle">Rectangle</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/philoxenus_bactria">Philoxenus of Bactria</persname>
+            </authority>
+            <obverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠑🠒🠓">ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΦΙΛΟΞΕΝΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs anikētou philoxenou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Bust of Philoxenus, diademed and draped right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/philoxenus_bactria">Philoxenus of Bactria</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠓🠐🠑">𐨨𐨱𐨪𐨗𐨯 𐨀𐨤𐨜𐨁𐨱𐨟𐨯 𐨥𐨁𐨫𐨯𐨁𐨣𐨯</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>mahārājasa apaḍihatasa philasinasa</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Deified ruler riding on horse, wearing helmet and cuirass right</description>
+                </type>
+                <symbol position="rightField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.bop.62">Bopearachchi Monogram 62</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+        <refDesc>
+            <reference>
+                <tei:title key="http://nomisma.org/id/bopearachchi-1991">Bopearachchi</tei:title>
+                <tei:idno>Philoxène 4A</tei:idno>
+            </reference>
+        </refDesc>
+    </descMeta>
+</nuds>

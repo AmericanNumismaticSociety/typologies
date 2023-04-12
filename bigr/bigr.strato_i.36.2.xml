@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.strato_i.36.2</recordId>
+        <otherRecordId localType="typeNumber">36.2</otherRecordId>
+        <otherRecordId localType="sortId">1008</otherRecordId>
+        <otherRecordId semantic="skos:broader">bigr.strato_i.36</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:41:39-04:00">Wed, 12 Apr 2023 13:41:39 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Strato I 36.2</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0105" notAfter="-0080">late second/early first century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denomination_i_bigr">Denomination I</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/rectangle">Rectangle</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/strato_i_bactria">Strato I of Bactria</persname>
+            </authority>
+            <obverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠑🠒🠓">ΒΑΣΙΛΕΩΣ ΕΠΙΦΑΝΟΥΣ ΣΩΤΗΡΟΣ ΣΤΡΑΤΩΝΟΣ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs epiphanous sotēros stratōnos</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Apollo standing facing, holding bow and arrow</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/apollo">Apollo</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠓🠐🠑">𐨨𐨱𐨪𐨗𐨯 𐨤𐨿𐨪𐨕𐨖𐨯 𐨟𐨿𐨪𐨟𐨪𐨯 𐨯𐨿𐨟𐨿𐨪𐨟𐨯</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>mahārājasa pracachasa tratarasa stratasa</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Tripod; dotted border</description>
+                </type>
+                <symbol position="leftField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.bop.63">Bopearachchi Monogram 63</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+        <refDesc>
+            <reference>
+                <tei:title key="http://nomisma.org/id/bopearachchi-1991">Bopearachchi</tei:title>
+                <tei:idno>Straton I 31B</tei:idno>
+            </reference>
+            <reference>
+                <tei:title key="http://nomisma.org/id/mitchiner-1976">Mitchiner</tei:title>
+                <tei:idno>336b</tei:idno>
+            </reference>
+        </refDesc>
+    </descMeta>
+</nuds>

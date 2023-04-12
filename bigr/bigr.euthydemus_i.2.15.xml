@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.euthydemus_i.2.15</recordId>
+        <otherRecordId localType="typeNumber">2.15</otherRecordId>
+        <otherRecordId localType="sortId">0117</otherRecordId>
+        <otherRecordId semantic="skos:broader">bigr.euthydemus_i.2</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:38:22-04:00">Wed, 12 Apr 2023 13:38:22 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Euthydemus I 2.15</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0230" notAfter="-0190">late third century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/tetradrachm">Tetradrachm</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/round">Round</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/euthydemus_i_bactria">Euthydemus I of Bactria</persname>
+            </authority>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Head of Euthydemus I right, diademed, with receeding hairline and sagging jowls</description>
+                </type>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="⇊">ΒΑΣΙΛΕΩΣ ΕΥΘΥΔΗΜΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs euthydēmou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Heracles, naked, seated on pile of rocks, holding club resting on rocks in right hand</description>
+                </type>
+                <symbol position="rightField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.bop.62">Bopearachchi Monogram 62</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/heracles">Heracles</persname>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+        <refDesc>
+            <reference>
+                <tei:title key="http://nomisma.org/id/bopearachchi-1991">Bopearachchi</tei:title>
+                <tei:idno>Euthydème I 12A</tei:idno>
+            </reference>
+            <reference>
+                <tei:title key="http://nomisma.org/id/mitchiner-1976">Mitchiner</tei:title>
+                <tei:idno>94a</tei:idno>
+            </reference>
+        </refDesc>
+    </descMeta>
+</nuds>

@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.zoilus_ii.5.2</recordId>
+        <otherRecordId localType="typeNumber">5.2</otherRecordId>
+        <otherRecordId localType="sortId">2006</otherRecordId>
+        <otherRecordId semantic="skos:broader">bigr.zoilus_ii.5</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:45:02-04:00">Wed, 12 Apr 2023 13:45:02 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Zoilus II 5.2</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0055" notAfter="-0035">second half first century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denomination_g_bigr">Denomination G</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/round">Round</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/zoilus_ii_bactria">Zoilus II of Bactria</persname>
+            </authority>
+            <obverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="⃕⤻">ΒΑΣΙΛΕΩΣ ΣΩΤΗΡΟΣ ΖΩΙΛΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs sotēros zoilou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Apollo standing right, holding bow and arrow, elephant standing right in left field</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/apollo">Apollo</persname>
+                <symbol position="leftField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.kharoshthi.34var">Kharoshthi 34var</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+                <symbol position="rightField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.kharoshthi.1">Kharoshthi 1</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="↶(plus arrow below, going clockwise from right to left)">𐨨𐨱𐨪𐨗𐨯 𐨟𐨿𐨪𐨟𐨪𐨯 𐨰𐨆𐨀𐨁𐨫𐨯</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>mahārājasa tratarasa jhoilasa</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Tripod</description>
+                </type>
+                <symbol position="leftField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:unclear/>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+                <symbol position="rightField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.kharoshthi.98">Kharoshthi 98</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+    </descMeta>
+</nuds>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.diodotus_i_ii.8A</recordId>
+        <otherRecordId localType="typeNumber">8A</otherRecordId>
+        <otherRecordId localType="sortId">0044</otherRecordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:38:01-04:00">Wed, 12 Apr 2023 13:38:01 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Diodotus I or Diodotus II 8A</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0260" notAfter="-0220">mid third century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denomination_b_sco">Denomination B (double)</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/round">Round</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/diodotus_i" certainty="http://nomisma.org/id/uncertain_value">Diodotus I of Bactria</persname>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/diodotus_ii" certainty="http://nomisma.org/id/uncertain_value">Diodotus II of Bactria</persname>
+            </authority>
+            <obverse>
+                <type>
+                    <description xml:lang="en">Head of Zeus right, laureate</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/zeus">Zeus</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="⇊">ΒΑΣΙΛΕΩΣ ΔΙΟΔΟΤΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs diodotou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Artemis running right holding angled torch with both hands, quiver over shoulder</description>
+                </type>
+                <symbol position="leftField">
+                    <tei:div type="edition">
+                        <tei:ab>spearhead</tei:ab>
+                    </tei:div>
+                </symbol>
+                <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/artemis">Artemis</persname>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+    </descMeta>
+</nuds>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.demetrius_iii.4</recordId>
+        <otherRecordId localType="typeNumber">4</otherRecordId>
+        <otherRecordId localType="sortId">1228</otherRecordId>
+        <publicationStatus>approved</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:42:00-04:00">Wed, 12 Apr 2023 13:42:00 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Demetrius III 4</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0150" notAfter="-0050">uncertain period within late second/early first century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/denomination_l_bigr">Denomination L</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ae">Bronze</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/rectangle">Rectangle</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/demetrius_iii_bactria">Demetrius III of Bactria</persname>
+            </authority>
+            <obverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠑🠒🠓">ΒΑΣΙΛΕΩΣ ΑΝΙΚΗΤΟΥ ΔΗΜΗΤΡΙΟΡΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs anikētou dēmētriou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Bust of Demetrius III, diademed and draped wearing elephant scalp helmet right</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/demetrius_iii_bactria">Demetrius III of Bactria</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="🠓🠐🠑">𐨨𐨱𐨪𐨗𐨯 𐨀𐨤𐨪𐨗𐨁𐨟𐨯 𐨡𐨁𐨨𐨅𐨪𐨁𐨩𐨯</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>mahārājasa aparajitasa dimetriyasa</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Winged thunderbolt</description>
+                </type>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+    </descMeta>
+</nuds>

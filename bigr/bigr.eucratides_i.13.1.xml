@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<nuds xmlns="http://nomisma.org/nuds" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:tei="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://nomisma.org/nuds http://nomisma.org/nuds.xsd" recordType="conceptual">
+    <control>
+        <recordId>bigr.eucratides_i.13.1</recordId>
+        <otherRecordId localType="typeNumber">13.1</otherRecordId>
+        <otherRecordId localType="sortId">0436</otherRecordId>
+        <otherRecordId semantic="skos:broader">bigr.eucratides_i.13</otherRecordId>
+        <publicationStatus>approvedSubtype</publicationStatus>
+        <maintenanceStatus>derived</maintenanceStatus>
+        <maintenanceAgency>
+            <agencyName>American Numismatic Society</agencyName>
+        </maintenanceAgency>
+        <maintenanceHistory>
+            <maintenanceEvent>
+                <eventType>derived</eventType>
+                <eventDateTime standardDateTime="2023-04-12T13:39:21-04:00">Wed, 12 Apr 2023 13:39:21 -0400</eventDateTime>
+                <agentType>machine</agentType>
+                <agent>PHP</agent>
+                <eventDescription>Generated from CSV from Google Drive.</eventDescription>
+            </maintenanceEvent>
+        </maintenanceHistory>
+        <rightsStmt>
+            <license xlink:type="simple" xlink:href="http://opendatacommons.org/licenses/odbl/"/>
+        </rightsStmt>
+        <semanticDeclaration>
+            <prefix>dcterms</prefix>
+            <namespace>http://purl.org/dc/terms/</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>nmo</prefix>
+            <namespace>http://nomisma.org/ontology#</namespace>
+        </semanticDeclaration>
+        <semanticDeclaration>
+            <prefix>skos</prefix>
+            <namespace>http://www.w3.org/2004/02/skos/core#</namespace>
+        </semanticDeclaration>
+    </control>
+    <descMeta>
+        <title xml:lang="en">Bactrian and Indo-Greek Coinage Eucratides I 13.1</title>
+        <typeDesc>
+            <objectType xlink:type="simple" xlink:href="http://nomisma.org/id/coin">Coin</objectType>
+            <date notBefore="-0170" notAfter="-0135">mid second century BCE</date>
+            <denomination xlink:type="simple" xlink:href="http://nomisma.org/id/drachma">Drachma</denomination>
+            <manufacture xlink:type="simple" xlink:href="http://nomisma.org/id/struck">Struck</manufacture>
+            <material xlink:type="simple" xlink:href="http://nomisma.org/id/ar">Silver</material>
+            <shape xlink:type="simple" xlink:href="http://nomisma.org/id/round">Round</shape>
+            <authority>
+                <persname xlink:type="simple" xlink:role="authority" xlink:href="http://nomisma.org/id/eucratides_i_bactria">Eucratides I of Bactria</persname>
+            </authority>
+            <obverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="⃕→">ΒΑΣΙΛΕΩΣ ΜΕΓΑΛΟΥ ΕΥΚΡΑΤΙΔΟΥ</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>basileōs megalou euktratidou</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Bust of Eucratides I, diademed, draped and cuirassed right, wearing Boeotian helmet adorned with bull's horn and ear</description>
+                </type>
+                <persname xlink:type="simple" xlink:role="portrait" xlink:href="http://nomisma.org/id/eucratides_i_bactria">Eucratides I of Bactria</persname>
+            </obverse>
+            <reverse>
+                <legend>
+                    <tei:div type="edition">
+                        <tei:ab rend="↶←">𐨪𐨗𐨯 𐨨𐨱𐨟𐨐𐨯 𐨀𐨅𐨬𐨂𐨐𐨿𐨪𐨟𐨁𐨟𐨯</tei:ab>
+                    </tei:div>
+                    <tei:div type="transliteration">
+                        <tei:ab>rājasa mahātakasa evukratidasa</tei:ab>
+                    </tei:div>
+                </legend>
+                <type>
+                    <description xml:lang="en">Dioscuri standing facing leaning on spears</description>
+                </type>
+                <symbol position="rightField">
+                    <tei:div type="edition">
+                        <tei:ab>
+                            <tei:am>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.bop.44">Bopearachchi Monogram 44</tei:g>
+                            </tei:am>
+                        </tei:ab>
+                    </tei:div>
+                </symbol>
+                <corpname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/dioscuri">Dioscuri</corpname>
+            </reverse>
+            <typeSeries xlink:type="simple" xlink:href="http://nomisma.org/id/bigr">Bactrian and Indo-Greek Coinage</typeSeries>
+        </typeDesc>
+        <refDesc>
+            <reference>
+                <tei:title key="http://nomisma.org/id/bopearachchi-1991">Bopearachchi</tei:title>
+                <tei:idno>Eucratide I 17A</tei:idno>
+            </reference>
+        </refDesc>
+    </descMeta>
+</nuds>
