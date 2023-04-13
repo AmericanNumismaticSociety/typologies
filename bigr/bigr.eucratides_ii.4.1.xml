@@ -13,7 +13,7 @@
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>derived</eventType>
-                <eventDateTime standardDateTime="2023-04-12T13:40:07-04:00">Wed, 12 Apr 2023 13:40:07 -0400</eventDateTime>
+                <eventDateTime standardDateTime="2023-04-13T13:48:51-04:00">Thu, 13 Apr 2023 13:48:51 -0400</eventDateTime>
                 <agentType>machine</agentType>
                 <agent>PHP</agent>
                 <eventDescription>Generated from CSV from Google Drive.</eventDescription>
@@ -67,11 +67,7 @@
                 </type>
                 <symbol position="leftField">
                     <tei:div type="edition">
-                        <tei:ab>
-                            <tei:am>
-                                <tei:g type="nmo:Monogram">Bopearachchi Monogram 125</tei:g>
-                            </tei:am>
-                        </tei:ab>
+                        <tei:ab>Π</tei:ab>
                     </tei:div>
                 </symbol>
                 <persname xlink:type="simple" xlink:role="deity" xlink:href="http://nomisma.org/id/apollo">Apollo</persname>

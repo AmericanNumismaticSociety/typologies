@@ -13,7 +13,7 @@
         <maintenanceHistory>
             <maintenanceEvent>
                 <eventType>derived</eventType>
-                <eventDateTime standardDateTime="2023-04-12T13:39:21-04:00">Wed, 12 Apr 2023 13:39:21 -0400</eventDateTime>
+                <eventDateTime standardDateTime="2023-04-13T13:48:07-04:00">Thu, 13 Apr 2023 13:48:07 -0400</eventDateTime>
                 <agentType>machine</agentType>
                 <agent>PHP</agent>
                 <eventDescription>Generated from CSV from Google Drive.</eventDescription>
@@ -70,7 +70,7 @@
                     <tei:div type="edition">
                         <tei:ab>
                             <tei:am>
-                                <tei:g type="nmo:Monogram">Bopearachchi Monogram 147var</tei:g>
+                                <tei:g type="nmo:Monogram" ref="https://numismatics.org/bigr/symbol/monogram.bop.147var">Bopearachchi Monogram 147var</tei:g>
                             </tei:am>
                         </tei:ab>
                     </tei:div>
